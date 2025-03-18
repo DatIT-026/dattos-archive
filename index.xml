@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datto&#39;s Archive</title>
+    <link>https://datit-026.github.io/dattos-archive/</link>
+    <description>Recent content on Datto&#39;s Archive</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://datit-026.github.io/dattos-archive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Lua is good for beginners?</title>
+      <link>https://datit-026.github.io/dattos-archive/posts/2025/03/why-lua-is-good-for-beginners/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://datit-026.github.io/dattos-archive/posts/2025/03/why-lua-is-good-for-beginners/</guid>
+      <description>&lt;p&gt;Hello there, this is my first blog about programming languages, and this today&amp;rsquo;s topic is why you should learn Lua in 2025 and why it is great for beginners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://datit-026.github.io/dattos-archive/about/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://datit-026.github.io/dattos-archive/about/</guid>
+      <description>&lt;h2 id=&#34;who-is-kiyoshi-datto&#34;&gt;Who is Kiyoshi Datto?&lt;/h2&gt;&#xA;&lt;p&gt;Hi there! I&amp;rsquo;m Kiyoshi Datto (aka Ha Nguyen Tien Dat or DatIT), a Vietnamese IT student. I love exploring new technologies in this rapidly evolving tech era. My &amp;ldquo;favorite&amp;rdquo; programming languages that I often (or not) use for projects: &lt;a href=&#34;https://en.wikipedia.org/wiki/JavaScript&#34;&gt;Javascript&lt;/a&gt; and &lt;a href=&#34;https://go.dev/&#34;&gt;Golang&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-page-exists&#34;&gt;Why this page exists?&lt;/h2&gt;&#xA;&lt;p&gt;This website is an archive all of my projects, including both my school work and the technologies I&amp;rsquo;ve discovered from the world out there. Additionally, The &lt;a href=&#34;./blog/&#34;&gt;blog&lt;/a&gt; is where I share my tech knowledge and coding experiences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://datit-026.github.io/dattos-archive/privacy/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://datit-026.github.io/dattos-archive/privacy/</guid>
+      <description>&lt;p&gt;Datto&amp;rsquo;s Archive respects your privacy. It does not:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use cookies for tracking&lt;/li&gt;&#xA;&lt;li&gt;Collect personal data&lt;/li&gt;&#xA;&lt;li&gt;Share information with third parties&lt;/li&gt;&#xA;&lt;li&gt;Use analytics software&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is a static site generated with Hugo. The server may log basic access information such as:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IP addresses&lt;/li&gt;&#xA;&lt;li&gt;Browser information&lt;/li&gt;&#xA;&lt;li&gt;Visited pages&lt;/li&gt;&#xA;&lt;li&gt;Time and date&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;These logs are not used for tracking or identification purposes and are periodically deleted.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;&#xA;&lt;p&gt;If you have any questions about this privacy policy, please contact me at &lt;a href=&#34;mailto:firehelper0609@gmail.com&#34;&gt;firehelper0609@gmail.com&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

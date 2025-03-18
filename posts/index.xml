@@ -1,0 +1,67 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Datto&#39;s Archive</title>
+        <link>https://datit-026.github.io/dattos-archive/posts/</link>
+        <description>Recent content in Posts on Datto&#39;s Archive</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://datit-026.github.io/dattos-archive/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Why Lua is good for beginners?</title>
+            <link>https://datit-026.github.io/dattos-archive/posts/2025/03/why-lua-is-good-for-beginners/</link>
+            <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://datit-026.github.io/dattos-archive/posts/2025/03/why-lua-is-good-for-beginners/</guid>
+            <description>&lt;p&gt;Hello there, this is my first blog about programming languages, and this today&amp;rsquo;s topic is why you should learn Lua in 2025 and why it is great for beginners.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Hello there, this is my first blog about programming languages, and this today&rsquo;s topic is why you should learn Lua in 2025 and why it is great for beginners.</p>
+<h2 id="introduction">Introduction</h2>
+<p>If you haven&rsquo;t heard of Lua, it&rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.</p>
+<p><a href="https://en.wikipedia.org/wiki/Lua_%28programming_language%29">Lua</a> is an open source language built on top of the <a href="https://en.wikipedia.org/wiki/C_%28programming_language%29">C programming language</a>. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.</p>
+<p>Lua has its value across multiple platforms ranging from large server systems to small mobile applications.</p>
+<h2 id="why-lua-should-be-learned">Why Lua Should Be Learned?</h2>
+<p>Lua is free open-source software, known especially for game development. Some key features which make Lua a popular choice are:</p>
+<ul>
+<li>Lua&rsquo;s syntax is simple and minimal, making it easy to learn.</li>
+<li>Lua uses dynamic typing, allowing you to assign any value to a variable without explicit type declaration.</li>
+<li>Lua can integrate with other programming languages and systems, which is used in multi-language projects.</li>
+<li>Lua is fast in terms of performance.</li>
+<li>Lua is highly portable. For example, it runs perfectly on any platforms that has a standard C compiler, including embedded processors, mobile devices and Windows.</li>
+</ul>
+<h2 id="jobs--opportunities">Jobs &amp; Opportunities</h2>
+<p>Well, learning only Lua wouldn&rsquo;t help you get any job but it is quite an essential tool to be skilled in if you are looking for these jobs:</p>
+<ul>
+<li>Game Developers</li>
+<li>Embedded systems developer</li>
+<li>Gameplay Programmer</li>
+<li>Software Developer</li>
+</ul>
+<h3 id="lua---scripted-video-games">Lua - Scripted video games</h3>
+<p>Are you big in to playing video games? Maybe you&rsquo;ve heard of some of these?</p>
+<ul>
+<li>Angry Birds</li>
+<li>Civilization V</li>
+<li>Heroes of Might and Magic V</li>
+<li>Roblox</li>
+<li>Saints Row 2</li>
+<li>SimCity 4</li>
+<li>Star Wars Battlefront</li>
+<li>World of Warcraft</li>
+</ul>
+<p>All of these games use Lua in some capacity, and there&rsquo;s MANY more. Most games or game engines will be written in C++ or C#, but using Lua on the front end for scripting allows for rapid development of these games. No need to re-compile each time. Compile your engine, and have it run the lua scripts. You can get started with <a href="https://love2d.org/">Love2d</a> or <a href="https://defold.com/">defold</a>.</p>
+<h3 id="hello-world-in-lua">&ldquo;Hello, World!&rdquo; in Lua</h3>
+<p>Lua is typically interpreted language, but it can also be compiled into bytecode for performance optimization. Here&rsquo;s its first &lsquo;Hello, World!&rsquo; example:</p>
+<pre tabindex="0"><code>print(&#34;Hello, World!&#34;)
+</code></pre><p>That&rsquo;s it! Does it looks familiar? You might have seen something similar in Python code.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Lua is fun to learn and work with it! If you don&rsquo;t know it, it wouldn&rsquo;t hurt to learn a new language. If you already know how to program, picking up Lua should be pretty quick. Read over this <a href="https://tylerneylon.com/a/learn-lua/">15 mins of lua</a>, and you will have a decent understanding of the syntax. At that point it&rsquo;s just a matter of digging in!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
