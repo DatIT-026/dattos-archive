@@ -12,6 +12,7 @@
   /* Terminal-like header */
   .logo__cursor {
     background-color: #8A4FFF !important;
+    animation: cursor 1.5s infinite;
   }
   
   .logo__mark {
