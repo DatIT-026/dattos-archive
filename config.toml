@@ -263,7 +263,3 @@ disableHugoGeneratorInject = false
     name       = "Privacy"
     url        = "privacy/"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true

@@ -39,6 +39,11 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  .text-right {
+    text-align: right;
+  }
+
   
   .gradient-text {
     background: linear-gradient(to right, #4285F4, #8A4FFF, #EA4335);
