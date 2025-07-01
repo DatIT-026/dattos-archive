@@ -6,8 +6,19 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://dattos-archive.click/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Getting Started with Linux</title>
+            <link>https://dattos-archive.click/posts/2025/07/getting-started-with-linux/</link>
+            <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://dattos-archive.click/posts/2025/07/getting-started-with-linux/</guid>
+            <description>&lt;p&gt;This page is temporarily unavailable due to remastering.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>This page is temporarily unavailable due to remastering.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Linux for Beginner</title>
@@ -55,7 +66,7 @@
 
 <p>Now you have the <code>.iso</code> file. Find a video on Youtube that will help you to install Linux. If you love reading, try to learn <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html">this article</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Now, you know what Linux is and how to install it. This is the end of Part 1 in the series <a href="/tags/linux-for-beginner/">Linux for Beginner</a>. In <a href="/tags/linux-for-beginner/">Part 2</a>, We will start exploring Linux Mint.</p>
+<p>Now, you know what Linux is and how to install it. This is the end of Part 1 in the series <a href="/tags/linux-for-beginner/">Linux for Beginner</a>. In <a href="/posts/2025/05/getting-started-with-linux/">Part 2</a>, We will start exploring Linux Mint.</p>
 ]]></content>
         </item>
         

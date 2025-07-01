@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dattos-archive.click/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Linux</title>
+      <link>https://dattos-archive.click/posts/2025/07/getting-started-with-linux/</link>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/posts/2025/07/getting-started-with-linux/</guid>
+      <description>&lt;p&gt;This page is temporarily unavailable due to remastering.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Linux for Beginner</title>
       <link>https://dattos-archive.click/posts/2025/05/linux-for-beginner/</link>
@@ -35,14 +42,14 @@
       <link>https://dattos-archive.click/privacy/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://dattos-archive.click/privacy/</guid>
-      <description>&lt;p&gt;&lt;em&gt;For Vietnamese user, please enter &lt;a href=&#34;https://datit-026.github.io/DatIT/support/privacy.html&#34;&gt;this&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;FireHelper regards your privacy as a very serious matter. FireHelper is committed to protecting users’ privacy, and this privacy policy explains our collection, use, and disclosure of data. This personal data protection policy applies to the website &lt;a href=&#34;https://dattos-archive.click/&#34;&gt;https://dattos-archive.click&lt;/a&gt;, the mobile application, and all other service platforms of ours.&lt;/p&gt;&#xA;&lt;p&gt;Through this policy, users will clearly understand how FireHelper processes and protects users’ Personal Data during the process of searching, accessing, registering accounts, and using FireHelper’s services; ensuring that users’ Personal Data is always private and secure in accordance with legal regulations and our security standards.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;For Vietnamese user, please enter &lt;a href=&#34;https://datit-026.github.io/DatIT/support/privacy.html&#34;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;FireHelper regards your privacy as a very serious matter. FireHelper is committed to protecting users’ privacy, and this privacy policy explains our collection, use, and disclosure of data. This personal data protection policy applies to the website &lt;a href=&#34;https://dattos-archive.click/&#34;&gt;https://dattos-archive.click&lt;/a&gt;, the mobile application, and all other service platforms of ours.&lt;/p&gt;&#xA;&lt;p&gt;Through this policy, users will clearly understand how FireHelper processes and protects users’ Personal Data during the process of searching, accessing, registering accounts, and using FireHelper’s services; ensuring that users’ Personal Data is always private and secure in accordance with legal regulations and our security standards.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Returning to the Past</title>
       <link>https://dattos-archive.click/revisit/</link>
       <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://dattos-archive.click/revisit/</guid>
-      <description>&lt;p&gt;You are about to enter the older version of Datto’s Archives website which is no longer updated.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://datit-026.github.io/DatIT/&#34;&gt;DatIT’s website&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The websites listed below are unsupported or will reach end of support in the near future.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Old Firehelper&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/FireHelper/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Thu khoa ly&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/thu-khoa-ly/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Face Recognition Project&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/FaceRecognition-Project/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sorting Algorithms in JS&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/Sorting-Algorithms-in-JS/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fumo&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/fumo/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Wheel&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/wheel/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Also, you can find our older stuff &lt;a href=&#34;./archiver/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;You are about to enter the older version of Datto’s Archives website which is no longer updated.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://datit-026.github.io/DatIT/&#34;&gt;DatIT’s website&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The websites listed below are unsupported or will reach end of support in the near future.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Old Firehelper&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/FireHelper/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Thu khoa ly&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/thu-khoa-ly/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Face Recognition Project&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/FaceRecognition-Project/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sorting Algorithms in JS&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/Sorting-Algorithms-in-JS/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fumo&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/fumo/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Wheel&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/wheel/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Also, you can find our older stuff &lt;a href=&#34;https://dattos-archive.click/archivers/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introducing UrGift App</title>
@@ -57,6 +64,13 @@
       <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://dattos-archive.click/archivers/safw/</guid>
       <description>&lt;p&gt;A streamlined command-line utility for quick access to Windows settings and troubleshooting common issues. Key features include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;System Configuration: Access Computer Management, System Properties, and Programs.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Network &amp;amp; Devices: Manage Network, Sharing, and Print options.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Customization: Modify Personalization and Power settings.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Troubleshooting Tools: Fix Windows Updates, Wi-Fi issues, and view activation status.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Utilities: Date/Time settings, Region, System Info, Activate Windows and more.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Designed for IT support, this tool is user-friendly and organized for fast system management. Ensure to run as Administrator for optimal functionality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio Windows 95 Website Project Completed ✔</title>
+      <link>https://dattos-archive.click/archivers/portfolio-windows-95-project/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/portfolio-windows-95-project/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The next update is planned for &lt;strong&gt;October 2025&lt;/strong&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This is my experiment of webcomponents. I came up with this awesome idea and created a project based on various sources to develop fun and creative web applications. Hope you like it.&lt;/p&gt;&#xA;&#xD;&#xA;    &lt;img src=&#34;https://raw.githubusercontent.com/DatIT-026/Win95WebProject/refs/heads/main/win95.png&#34;  alt=&#34;SAFW&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;View online demo &lt;a href=&#34;https://datit-026.github.io/Win95WebProject/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Changelog &lt;a href=&#34;https://github.com/DatIT-026/Win95WebProject/releases&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ReSolve</title>
