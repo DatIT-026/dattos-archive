@@ -1,4 +1,4 @@
-baseURL = "https://datit-026.github.io/dattos-archive/"
+baseURL = "https://dattos-archive.click/"
 title   = "Datto Archive"
 languageCode = "en-us"
 theme = "hello-friend-ng"
