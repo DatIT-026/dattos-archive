@@ -1,0 +1,59 @@
+:root {
+    --background: #1d1f21;
+    --foreground: #a5a5a5;
+    --accent: #81a2be;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+  
+  /* Terminal-like header */
+  .logo__cursor {
+    background-color: #8A4FFF !important;
+    animation: cursor 1.5s infinite;
+  }
+  
+  .logo__mark {
+    color: #8A4FFF;
+  }
+
+  .menu-divider {
+    padding: 4px;
+    margin: 0 1rem;
+  }  
+
+  /* if you wanna use the flag icon 
+  .fi-vn {
+    background-image: url('../flags/4x3/vn.svg');
+  }
+  
+  .fi-gb {
+    background-image: url('../flags/4x3/gb.svg');
+  } */
+
+  /* Link styling */
+  h1{
+    background-image: linear-gradient(to right, #4285F4, #8A4FFF, #EA4335);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  
+  .gradient-text {
+    background: linear-gradient(to right, #4285F4, #8A4FFF, #EA4335);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+
+  .footer__content {
+    color: #8A4FFF;
+  }

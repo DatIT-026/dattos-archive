@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming Language on Datto&#39;s Archive</title>
+    <link>https://dattos-archive.click/tags/programming-language/</link>
+    <description>Recent content in Programming Language on Datto&#39;s Archive</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 18 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dattos-archive.click/tags/programming-language/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Lua is good for beginners?</title>
+      <link>https://dattos-archive.click/posts/2025/03/why-lua-is-good-for-beginners/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/posts/2025/03/why-lua-is-good-for-beginners/</guid>
+      <description>&lt;p&gt;Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in 2025 and why it’s an excellent choice for beginners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

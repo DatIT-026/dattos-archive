@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datto&#39;s Archive</title>
+    <link>https://dattos-archive.click/</link>
+    <description>Recent content on Datto&#39;s Archive</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dattos-archive.click/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux for Beginner</title>
+      <link>https://dattos-archive.click/posts/2025/05/linux-for-beginner/</link>
+      <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/posts/2025/05/linux-for-beginner/</guid>
+      <description>&lt;p&gt;If you’re new to Linux, this guide will help you get started with one of the most powerful and versatile operating systems out there. Linux runs everything from smartphones to supercomputers, and it’s known for its stability, security, and flexibility.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we’ll explore what Linux is, how it works, and introduce you to popular beginner-friendly distributions like Ubuntu or Linux Mint. You’ll also learn the basics of navigating Linux, both through its graphical interface and the command line, so you can confidently take your first steps into the Linux world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Lua is good for beginners?</title>
+      <link>https://dattos-archive.click/posts/2025/03/why-lua-is-good-for-beginners/</link>
+      <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/posts/2025/03/why-lua-is-good-for-beginners/</guid>
+      <description>&lt;p&gt;Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in 2025 and why it’s an excellent choice for beginners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://dattos-archive.click/about/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/about/</guid>
+      <description>&lt;h2 id=&#34;who-is-kiyoshi-datto&#34;&gt;Who is Kiyoshi Datto?&lt;/h2&gt;&#xA;&lt;p&gt;Hi there! I&amp;rsquo;m Kiyoshi Datto (aka Ha Nguyen Tien Dat or DatIT), a Vietnamese IT student. I love exploring new technologies in this rapidly evolving tech era. My &amp;ldquo;favorite&amp;rdquo; programming languages that I often (or not) use for projects: &lt;a href=&#34;https://en.wikipedia.org/wiki/JavaScript&#34;&gt;Javascript&lt;/a&gt; and &lt;a href=&#34;https://go.dev/&#34;&gt;Golang&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-page-exists&#34;&gt;Why this page exists?&lt;/h2&gt;&#xA;&lt;p&gt;This website is an archive of all my projects, including both my schoolwork and the technologies I&amp;rsquo;ve discovered from the world out there. Additionally, the &lt;a href=&#34;https://dattos-archive.click/posts/&#34;&gt;blog&lt;/a&gt; is where I share my tech knowledge and coding experiences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Privacy Policy and Personal Data Protection</title>
+      <link>https://dattos-archive.click/privacy/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/privacy/</guid>
+      <description>&lt;p&gt;&lt;em&gt;For Vietnamese user, please enter &lt;a href=&#34;https://datit-026.github.io/DatIT/support/privacy.html&#34;&gt;this&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;FireHelper regards your privacy as a very serious matter. FireHelper is committed to protecting users’ privacy, and this privacy policy explains our collection, use, and disclosure of data. This personal data protection policy applies to the website &lt;a href=&#34;https://datit-026.github.io/dattos-archive/&#34;&gt;https://datit-026.github.io/dattos-archive/&lt;/a&gt;, the mobile application, and all other service platforms of ours.&lt;/p&gt;&#xA;&lt;p&gt;Through this policy, users will clearly understand how FireHelper processes and protects users’ Personal Data during the process of searching, accessing, registering accounts, and using FireHelper’s services; ensuring that users’ Personal Data is always private and secure in accordance with legal regulations and our security standards.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Returning to the Past</title>
+      <link>https://dattos-archive.click/revisit/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/revisit/</guid>
+      <description>&lt;p&gt;You are about to enter the older version of Datto’s Archives website which is no longer updated.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://datit-026.github.io/DatIT/&#34;&gt;DatIT’s website&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The websites listed below are unsupported or will reach end of support in the near future.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Old Firehelper&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/FireHelper/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Thu khoa ly&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/thu-khoa-ly/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Face Recognition Project&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/FaceRecognition-Project/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Sorting Algorithms in JS&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/Sorting-Algorithms-in-JS/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fumo&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/fumo/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Wheel&lt;/strong&gt;: &lt;a href=&#34;https://datit-026.github.io/wheel/&#34;&gt;here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Also, you can find our older stuff &lt;a href=&#34;./archiver/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introducing UrGift App</title>
+      <link>https://dattos-archive.click/archivers/urgift/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/urgift/</guid>
+      <description>&lt;p&gt;The new way to express your feelings to the one you love.&lt;/p&gt;&#xA;&#xD;&#xA;    &lt;img src=&#34;https://raw.githubusercontent.com/DatIT-026/DatIT/refs/heads/main/Blog/2025/urgift-app/urgift.webp&#34;  alt=&#34;UrGift&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Confessing love with technology is a new and modern way compared to traditional methods. UrGift is a fun app that helps you express your feelings in a unique and exciting way. Based on the original confession website for Desktop, UrGift Android has a simple and optimized design. Some features from the Desktop version have been removed, but new and interesting ones have been added to make your confession even better.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Setup and Fix Windows Tool</title>
+      <link>https://dattos-archive.click/archivers/safw/</link>
+      <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/safw/</guid>
+      <description>&lt;p&gt;A streamlined command-line utility for quick access to Windows settings and troubleshooting common issues. Key features include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;System Configuration: Access Computer Management, System Properties, and Programs.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Network &amp;amp; Devices: Manage Network, Sharing, and Print options.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Customization: Modify Personalization and Power settings.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Troubleshooting Tools: Fix Windows Updates, Wi-Fi issues, and view activation status.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Utilities: Date/Time settings, Region, System Info, Activate Windows and more.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Designed for IT support, this tool is user-friendly and organized for fast system management. Ensure to run as Administrator for optimal functionality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ReSolve</title>
+      <link>https://dattos-archive.click/archivers/resolve/</link>
+      <pubDate>Thu, 31 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/resolve/</guid>
+      <description>&lt;p&gt;This project &lt;strong&gt;was retired&lt;/strong&gt; on August 30th 2023.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;🔎 Operations:&lt;/p&gt;&#xA;&lt;p&gt;August 29, 2023: Support for all project-related information will cease.&lt;/p&gt;&#xA;&lt;p&gt;August 30, 2023: All access and download links for the ReSolve program project will be removed.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;⚠ NOTICE&lt;/strong&gt;:&#xA;Users have to uninstall all Resolve tool files (if any are present on their devices).&lt;/p&gt;&#xA;&lt;p&gt;We will not be responsible for any issues or damages that may arise from the program after August 29, 2023.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Catch Me If You Can</title>
+      <link>https://dattos-archive.click/archivers/cmiyc/</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/cmiyc/</guid>
+      <description>&lt;p&gt;This is an official version of my first awesome game. Simply follow the in-game instructions and hopefully, you&amp;rsquo;ll enjoy it.&lt;/p&gt;&#xA;&lt;p&gt;Try it directly &lt;a href=&#34;https://itch.io/embed/2518374&#34;&gt;here&lt;/a&gt; or you can downloads it:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1DubOSmJKgCkAHnI1toQUgzy6ay1AGAeA/&#34;&gt;Catch Me If You Can&lt;/a&gt;: 99 MB (November 13, 2021)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1fL-il7c9EsdbuvNoJJ6jvHGod3GfdS-n/&#34;&gt;Catch Me If You Can - Beta&lt;/a&gt;: 97 MB (August 9, 2021)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Lemon App</title>
+      <link>https://dattos-archive.click/archivers/lemonapp/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/lemonapp/</guid>
+      <description>&lt;p&gt;This project &lt;strong&gt;was retired&lt;/strong&gt; on December 31st 2020.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Dear player, we have discontinued support for the Lemon App after December 31, 2020, in order to focus on creating a more exciting product that brings greater benefits to users. We sincerely thank you for trusting and using our product.&lt;/p&gt;&#xA;&#xD;&#xA;    &lt;img src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqWFm9TGFdw3_aUmwFY4kxlGJr7-P0OdQTLqqJ9dCxqOyfggQuuY_FDWngI9AN2Tgk6iSe2UiK0r2CXLmHBKfjl3iGv09OaK_WS7mBKYq0DOE7n4a8EkivcgTOc1UN-BPweljtzGf64t2M/s400/400x400.png&#34;  alt=&#34;Lemon App&#34;  class=&#34;center&#34;  style=&#34;border-radius: 3px;&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;&#xA;&lt;p&gt;There is no information for this App.&lt;/p&gt;&#xA;&lt;p&gt;Android 4.0+ or higher required&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Download responsibly!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;download&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1o5jwW7Kvn2l9w85N6rx1elP7nf01WODc/&#34;&gt;Download&lt;/a&gt;&lt;/h3&gt;</description>
+    </item>
+    <item>
+      <title>Restore Wifi (Fix Wifi)</title>
+      <link>https://dattos-archive.click/archivers/restorewifi/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/archivers/restorewifi/</guid>
+      <description>&lt;p&gt;This project &lt;strong&gt;was retired&lt;/strong&gt; on December 15th 2020.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Hello, we may have some unfortunate news for you. The Restore Wifi (Fix Wifi) tools will officially be discontinued on December 15, 2020.&lt;/p&gt;&#xA;&lt;p&gt;After this date, there will be no new updates or patches available for this tools. Therefore, you have to uninstall the tool because hackers may attack and steal your data.&lt;/p&gt;&#xA;&#xD;&#xA;    &lt;img src=&#34;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsXpl_pWWG_juc-GmhKfBAWvHCGiUcvOpk7oCBQORhlO32P_1MlAaNWb9O2lQgPql90jDlKH5S0SiuiiMFvrTV5FcN1MjENTQQUk2ez5j5Vd5qXN84GG0AtegbzT5bwxBJc1cFU6ryR_25/s862/Capture.PNG&#34;  alt=&#34;SAFW&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Frequently Asked Questions&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Question&lt;/em&gt;: Will the tool still work if it is retired? &lt;br&gt;&#xA;&lt;em&gt;Answer&lt;/em&gt;: The tool would still work if it were retired.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

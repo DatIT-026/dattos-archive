@@ -1,0 +1,117 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Datto&#39;s Archive</title>
+        <link>https://dattos-archive.click/posts/</link>
+        <description>Recent content in Posts on Datto&#39;s Archive</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://dattos-archive.click/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Linux for Beginner</title>
+            <link>https://dattos-archive.click/posts/2025/05/linux-for-beginner/</link>
+            <pubDate>Sat, 31 May 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://dattos-archive.click/posts/2025/05/linux-for-beginner/</guid>
+            <description>&lt;p&gt;If you’re new to Linux, this guide will help you get started with one of the most powerful and versatile operating systems out there. Linux runs everything from smartphones to supercomputers, and it’s known for its stability, security, and flexibility.&lt;/p&gt;
+&lt;p&gt;In this post, we’ll explore what Linux is, how it works, and introduce you to popular beginner-friendly distributions like Ubuntu or Linux Mint. You’ll also learn the basics of navigating Linux, both through its graphical interface and the command line, so you can confidently take your first steps into the Linux world.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>If you’re new to Linux, this guide will help you get started with one of the most powerful and versatile operating systems out there. Linux runs everything from smartphones to supercomputers, and it’s known for its stability, security, and flexibility.</p>
+<p>In this post, we’ll explore what Linux is, how it works, and introduce you to popular beginner-friendly distributions like Ubuntu or Linux Mint. You’ll also learn the basics of navigating Linux, both through its graphical interface and the command line, so you can confidently take your first steps into the Linux world.</p>
+<p>Let’s dive in and unlock the power of Linux together!</p>
+<h2 id="oh-wait-what-is-linux">Oh wait! What is Linux?</h2>
+<p>Oh yes, let me introduce what is Linux and why we should use it. <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> is an <a href="https://en.wikipedia.org/wiki/Open_source">open source</a> operating system (OS) created by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</a> in 1991.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Linux_kernel">Linux Kernel</a> is like the brain of the operating system because it manages how the computer interacts with its hardware and resources. It makes sure everything works smoothly and efficiently but the Linux Kernel alone is not enough to make a complete operating system.</p>
+<p>To create a full and functional system, the Linux Kernel is combined with a collection of software packages and utilities, which are together called <a href="https://en.wikipedia.org/wiki/Linux_distribution">Linux distributions</a>.</p>
+<p>These distributions make the Linux Operating System ready for users to run their applications and perform tasks on their computers securely and effectively. Linux distributions come in different flavors, each tailored to suit the specific needs and preferences of users.</p>
+<h3 id="what-does-linux-include">What does Linux include?</h3>
+<ul>
+<li><strong>Kernel</strong>: The base component of the OS. Without it, the OS doesn’t work. The kernel manages the system’s resources and communicates with the hardware. It’s responsible for memory, process, and file management.</li>
+<li><strong>System user space</strong>: The administrative layer for system-level tasks like configuration and software installation. The system user space includes the shell, command-line tools, background daemons, and the desktop environment.</li>
+<li><strong>Applications</strong>: A type of software that lets you perform a task. Applications include everything from desktop tools and programming languages to multiuser business suites. Most Linux distributions offer a central database to search for and download additional applications.</li>
+</ul>
+<h3 id="benefits-of-linux">Benefits of Linux</h3>
+<p>Reasons to run Linux are as varied as the people and enterprises using it. A few major themes motivate people to choose Linux over another OS:</p>
+<ul>
+<li><strong>Versatility</strong>: Linux is very flexible, powering everything from small devices to big company apps. Being open source, it helps avoid being stuck with one vendor’s solution, offering many Linux-based alternatives.</li>
+<li><strong>Security</strong>: Linux’s modularity is especially beneficial in your approach to security, because you can monitor every aspect of the OS. Since 2003, <a href="https://en.wikipedia.org/wiki/Security-Enhanced_Linux">SELinux</a> has given admins clear visibility and fine-tuned control over user access and app permissions, supporting a complete security approach.</li>
+<li><strong>Community</strong>: A worldwide community of practice around Linux has existed for decades, and thousands of smaller communities have formed around specific projects. That means there’s always someone willing to share ideas, troubleshooting tips, and new innovations.</li>
+</ul>
+<p>Ok, so now you know what Linux is and why we should use it. Let&rsquo;s install Linux.</p>
+<h2 id="linux-looks-great-how-to-install-it">Linux looks great! How to install it?</h2>
+<p>First, choose a <a href="https://en.wikipedia.org/wiki/Linux_distribution">Linux distributions</a> that suits your personal needs or check it out <a href="https://distrowatch.com/">here</a>. I&rsquo;d choose <a href="https://linuxmint.com/download.php">Linux Mint</a> and recommend beginners start with either <a href="https://linuxmint.com/download.php">Mint</a> or <a href="https://ubuntu.com/download">Ubuntu</a>. <a href="https://archlinux.org/download/">Arch Linux</a>, however, is not recommended for first-time users.</p>
+<p>Install Mint <a href="https://linuxmint.com/download.php">here</a>.</p>
+<p>On this download page, you see 3 variants that you can choose from based on 3 different types of desktop environments, <em>Cinnamon</em> Edition, <em>Mate</em> Edition, and <em>Xfce</em> Edition. In this tutorials, I will use Cinnamon as a foundation. Cinnamon is the flagship and most popular desktop environment offered by the Linux Mint team.</p>
+
+    <img src="https://www.reallinuxuser.com/wp-content/uploads/2018/09/How-to-download-Linux-Mint-21-Cinnamon-001.jpg"  alt="choose your country"  class="center"  style="border-radius: 1px;"  />
+
+
+<p>A new page opens with the option between downloading via torrent or directly from a large number of Download mirrors.</p>
+<p>On this page scroll down until you reach your country or the most nearby country. In my case, I can choose from 2 different mirrors in the Vietnam (updated in 2025). Choose one of the mirror websites and click on it to start the download.</p>
+
+    <img src="https://cdn2.fptshop.com.vn/unsafe/800x0/linux_mint_hinh_5_2daadcb67b.jpg"  alt="choose your country"  class="center"  style="border-radius: 1px;"  />
+
+
+<p>Now you have the <code>.iso</code> file. Find a video on Youtube that will help you to install Linux. If you love reading, try to learn <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html">this article</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Now, you know what Linux is and how to install it. This is the end of Part 1 in the series <a href="/tags/linux-for-beginner/">Linux for Beginner</a>. In <a href="/tags/linux-for-beginner/">Part 2</a>, We will start exploring Linux Mint.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Why Lua is good for beginners?</title>
+            <link>https://dattos-archive.click/posts/2025/03/why-lua-is-good-for-beginners/</link>
+            <pubDate>Tue, 18 Mar 2025 00:00:00 +0000</pubDate>
+            
+            <guid>https://dattos-archive.click/posts/2025/03/why-lua-is-good-for-beginners/</guid>
+            <description>&lt;p&gt;Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in 2025 and why it’s an excellent choice for beginners.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in 2025 and why it’s an excellent choice for beginners.</p>
+<h2 id="introduction">Introduction</h2>
+<p>If you haven&rsquo;t heard of Lua, it&rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.</p>
+<p><a href="https://en.wikipedia.org/wiki/Lua_%28programming_language%29">Lua</a> is an open source language built on top of the <a href="https://en.wikipedia.org/wiki/C_%28programming_language%29">C programming language</a>. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.</p>
+<p>Lua has its value across multiple platforms ranging from large server systems to small mobile applications.</p>
+<h2 id="why-lua-should-be-learned">Why Lua Should Be Learned?</h2>
+<p>Lua is free open-source software, known especially for game development. Some key features which make Lua a popular choice are:</p>
+<ul>
+<li>Lua&rsquo;s syntax is simple and minimal, making it easy to learn.</li>
+<li>Lua uses dynamic typing, allowing you to assign any value to a variable without explicit type declaration.</li>
+<li>Lua can integrate with other programming languages and systems, which is used in multi-language projects.</li>
+<li>Lua is fast in terms of performance.</li>
+<li>Lua is highly portable. For example, it runs perfectly on any platforms that has a standard C compiler, including embedded processors, mobile devices and Windows.</li>
+</ul>
+<h2 id="jobs--opportunities">Jobs &amp; Opportunities</h2>
+<p>Well, learning only Lua wouldn&rsquo;t help you get any job but it is quite an essential tool to be skilled in if you are looking for these jobs:</p>
+<ul>
+<li>Game Developers</li>
+<li>Embedded systems developer</li>
+<li>Gameplay Programmer</li>
+<li>Software Developer</li>
+</ul>
+<h3 id="lua---scripted-video-games">Lua - Scripted video games</h3>
+<p>Are you big in to playing video games? Maybe you&rsquo;ve heard of some of these?</p>
+<ul>
+<li>Angry Birds</li>
+<li>Civilization V</li>
+<li>Heroes of Might and Magic V</li>
+<li>Roblox</li>
+<li>Saints Row 2</li>
+<li>SimCity 4</li>
+<li>Star Wars Battlefront</li>
+<li>World of Warcraft</li>
+</ul>
+<p>All of these games use Lua in some capacity, and there&rsquo;s MANY more. Most games or game engines will be written in C++ or C#, but using Lua on the front end for scripting allows for rapid development of these games. No need to re-compile each time. Compile your engine, and have it run the lua scripts. You can get started with <a href="https://love2d.org/">Love2d</a> or <a href="https://defold.com/">defold</a>.</p>
+<h3 id="hello-world-in-lua">&ldquo;Hello, World!&rdquo; in Lua</h3>
+<p>Lua is typically interpreted language, but it can also be compiled into bytecode for performance optimization. Here&rsquo;s its first &lsquo;Hello, World!&rsquo; example:</p>
+<pre tabindex="0"><code>print(&#34;Hello, World!&#34;)
+</code></pre><p>That&rsquo;s it! Does it looks familiar? You might have seen something similar in Python code.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Lua is fun to learn and work with it! If you don&rsquo;t know it, it wouldn&rsquo;t hurt to learn a new language. If you already know how to program, picking up Lua should be pretty quick. Read over this <a href="https://tylerneylon.com/a/learn-lua/">15 mins of lua</a>, and you will have a decent understanding of the syntax. At that point it&rsquo;s just a matter of digging in!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
