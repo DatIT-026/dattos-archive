@@ -1,0 +1,373 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Blogs on Datto&#39;s Archive</title>
+        <link>https://dattos-archive.click/blog/</link>
+        <description>Recent content in Blogs on Datto&#39;s Archive</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Wed, 15 Apr 2026 13:00:00 +0700</lastBuildDate>
+        <atom:link href="https://dattos-archive.click/blog/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Analysis of the exam system at University F**</title>
+            <link>https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/</link>
+            <pubDate>Wed, 15 Apr 2026 13:00:00 +0700</pubDate>
+            
+            <guid>https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/</guid>
+            <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt;: &lt;a href=&#34;https://www.facebook.com/photo/?fbid=1323516489706345&#34;&gt;Facebook&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;This is an analytical post regarding the &lt;strong&gt;USB-based final exam system&lt;/strong&gt; used by University F**. This is &lt;strong&gt;Windows To Go&lt;/strong&gt; - a complete Windows OS contained within a 64GB USB drive, encrypted with &lt;strong&gt;Bitlocker&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Read full: &lt;a href=&#34;https://th1nhhdk.github.io/blog/post/2026/03/31/phan-tich-he-thong-thi-bang-usb-cua-truong-dh-f/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&#34;analysis-of-the-exam-system-at-university-f_image_1.webp&#34; style=&#34;display: block; margin: 0 auto; width: 100%; border-radius: 8px&#34;&gt;
+&lt;h2 id=&#34;quick-summary&#34;&gt;Quick Summary:&lt;/h2&gt;
+&lt;h4 id=&#34;how-it-works&#34;&gt;How it works&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;USB chứa &lt;strong&gt;Windows 10 IoT Enterprise LTSC&lt;/strong&gt; chạy ở &lt;strong&gt;chế độ Kiosk&lt;/strong&gt; - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<blockquote>
+<p><strong>Source</strong>: <a href="https://www.facebook.com/photo/?fbid=1323516489706345">Facebook</a></p></blockquote>
+<hr>
+<p>This is an analytical post regarding the <strong>USB-based final exam system</strong> used by University F**. This is <strong>Windows To Go</strong> - a complete Windows OS contained within a 64GB USB drive, encrypted with <strong>Bitlocker</strong>.</p>
+<p>Read full: <a href="https://th1nhhdk.github.io/blog/post/2026/03/31/phan-tich-he-thong-thi-bang-usb-cua-truong-dh-f/">here</a>.</p>
+<img src="analysis-of-the-exam-system-at-university-f_image_1.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<h2 id="quick-summary">Quick Summary:</h2>
+<h4 id="how-it-works">How it works</h4>
+<ul>
+<li>
+<p>USB chứa <strong>Windows 10 IoT Enterprise LTSC</strong> chạy ở <strong>chế độ Kiosk</strong> - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.</p>
+</li>
+<li>
+<p>Students plug the USB into their personal laptops and boot from the USB instead of using the pre-installed operating system.</p>
+</li>
+<li>
+<p>The USB contains <strong>Windows 10 IoT Enterprise LTSC</strong> running in <strong>Kiosk mode</strong> - allowing only the exam software to run while blocking all other operations.</p>
+</li>
+</ul>
+<h4 id="analysis-process">Analysis Process</h4>
+<ol>
+<li>
+<p><strong>USB Cloning</strong>: The author cloned the entire 64GB drive into an <code>.img</code> bằng <code>dd</code>.</p>
+</li>
+<li>
+<p><strong>Bitlocker Decryption</strong>: The OS partition was encrypted, but the decryption key (the <code>.BEK</code> file) was located right on the EFI partition - requiring no password for access.</p>
+</li>
+</ol>
+<h4 id="content-analysis">Content Analysis</h4>
+<ul>
+<li>
+<p>The OS is configured to: auto-reboot upon crashing, utilize performance tweaks, and has file indexing disabled.</p>
+</li>
+<li>
+<p>It includes <strong>Snappy Driver Installer</strong> + <strong>Driver Installer</strong> to ensure driver compatibility across various hardware.</p>
+</li>
+<li>
+<p>Logs indicate that the USB was created and tested within <strong>VirtualBox</strong>.</p>
+</li>
+</ul>
+<h4 id="exam-software-eclientexe">Exam Software (E**Client.exe):</h4>
+<ul>
+<li>
+<p>Runs in fullscreen mode and blocks <strong>Alt+Tab</strong>.</p>
+</li>
+<li>
+<p>Captures a photo of the candidate via webcam at the start of the exam.</p>
+</li>
+<li>
+<p>Submits the exam via an internal server within the university.</p>
+</li>
+</ul>
+<h4 id="booting-in-a-vm">Booting in a VM::</h4>
+<ul>
+<li>The author converted the <code>.img</code> -&gt; <code>.vmdk</code> and booted it in <strong>VMWare</strong> for verification - confirming that the <strong>Kiosk</strong> functions exactly as described.</li>
+</ul>
+<h4 id="conclusion">Conclusion</h4>
+<ul>
+<li>
+<p>The system is <strong>quite secure</strong> - cheating is very difficult or impractical.</p>
+</li>
+<li>
+<p>Even if the USB restrictions were bypassed, secretly opening additional software in <strong>Kiosk mode</strong> without being detected by a proctor is nearly impossible.</p>
+</li>
+<li>
+<p><em>Disadvantages</em>: The cost of purchasing ~300 64GB USB drives is quite high, and stability depends on the diverse drivers and hardware of the students&rsquo; laptops.</p>
+</li>
+</ul>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Getting Started with Linux</title>
+            <link>https://dattos-archive.click/blog/2025/07/getting-started-with-linux/</link>
+            <pubDate>Tue, 01 Jul 2025 21:16:00 +0700</pubDate>
+            
+            <guid>https://dattos-archive.click/blog/2025/07/getting-started-with-linux/</guid>
+            <description>&lt;p&gt;This page is temporarily unavailable due to remastering.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>This page is temporarily unavailable due to remastering.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Linux for Beginner</title>
+            <link>https://dattos-archive.click/blog/2025/05/linux-for-beginner/</link>
+            <pubDate>Sat, 31 May 2025 22:23:00 +0700</pubDate>
+            
+            <guid>https://dattos-archive.click/blog/2025/05/linux-for-beginner/</guid>
+            <description>&lt;p&gt;If you’re new to Linux, this guide will help you get started with one of the most powerful and versatile operating systems out there. Linux runs everything from smartphones to supercomputers, and it’s known for its stability, security, and flexibility.&lt;/p&gt;
+&lt;p&gt;In this post, we’ll explore what Linux is, how it works, and introduce you to popular beginner-friendly distributions like Ubuntu or Linux Mint. You’ll also learn the basics of navigating Linux, both through its graphical interface and the command line, so you can confidently take your first steps into the Linux world.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>If you’re new to Linux, this guide will help you get started with one of the most powerful and versatile operating systems out there. Linux runs everything from smartphones to supercomputers, and it’s known for its stability, security, and flexibility.</p>
+<p>In this post, we’ll explore what Linux is, how it works, and introduce you to popular beginner-friendly distributions like Ubuntu or Linux Mint. You’ll also learn the basics of navigating Linux, both through its graphical interface and the command line, so you can confidently take your first steps into the Linux world.</p>
+<p>Let’s dive in and unlock the power of Linux together!</p>
+<h2 id="oh-wait-what-is-linux">Oh wait! What is Linux?</h2>
+<p>Oh yes, let me introduce what is Linux and why we should use it. <a href="https://en.wikipedia.org/wiki/Linux">Linux</a> is an <a href="https://en.wikipedia.org/wiki/Open_source">open source</a> operating system (OS) created by <a href="https://en.wikipedia.org/wiki/Linus_Torvalds">Linus Torvalds</a> in 1991.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/Linux_kernel">Linux Kernel</a> is like the brain of the operating system because it manages how the computer interacts with its hardware and resources. It makes sure everything works smoothly and efficiently but the Linux Kernel alone is not enough to make a complete operating system.</p>
+<p>To create a full and functional system, the Linux Kernel is combined with a collection of software packages and utilities, which are together called <a href="https://en.wikipedia.org/wiki/Linux_distribution">Linux distributions</a>.</p>
+<p>These distributions make the Linux Operating System ready for users to run their applications and perform tasks on their computers securely and effectively. Linux distributions come in different flavors, each tailored to suit the specific needs and preferences of users.</p>
+<h3 id="what-does-linux-include">What does Linux include?</h3>
+<ul>
+<li><strong>Kernel</strong>: The base component of the OS. Without it, the OS doesn’t work. The kernel manages the system’s resources and communicates with the hardware. It’s responsible for memory, process, and file management.</li>
+<li><strong>System user space</strong>: The administrative layer for system-level tasks like configuration and software installation. The system user space includes the shell, command-line tools, background daemons, and the desktop environment.</li>
+<li><strong>Applications</strong>: A type of software that lets you perform a task. Applications include everything from desktop tools and programming languages to multiuser business suites. Most Linux distributions offer a central database to search for and download additional applications.</li>
+</ul>
+<h3 id="benefits-of-linux">Benefits of Linux</h3>
+<p>Reasons to run Linux are as varied as the people and enterprises using it. A few major themes motivate people to choose Linux over another OS:</p>
+<ul>
+<li><strong>Versatility</strong>: Linux is very flexible, powering everything from small devices to big company apps. Being open source, it helps avoid being stuck with one vendor’s solution, offering many Linux-based alternatives.</li>
+<li><strong>Security</strong>: Linux’s modularity is especially beneficial in your approach to security, because you can monitor every aspect of the OS. Since 2003, <a href="https://en.wikipedia.org/wiki/Security-Enhanced_Linux">SELinux</a> has given admins clear visibility and fine-tuned control over user access and app permissions, supporting a complete security approach.</li>
+<li><strong>Community</strong>: A worldwide community of practice around Linux has existed for decades, and thousands of smaller communities have formed around specific projects. That means there’s always someone willing to share ideas, troubleshooting tips, and new innovations.</li>
+</ul>
+<p>Ok, so now you know what Linux is and why we should use it. Let&rsquo;s install Linux.</p>
+<h2 id="linux-looks-great-how-to-install-it">Linux looks great! How to install it?</h2>
+<p>First, choose a <a href="https://en.wikipedia.org/wiki/Linux_distribution">Linux distributions</a> that suits your personal needs or check it out <a href="https://distrowatch.com/">here</a>. I&rsquo;d choose <a href="https://linuxmint.com/download.php">Linux Mint</a> and recommend beginners start with either <a href="https://linuxmint.com/download.php">Mint</a> or <a href="https://ubuntu.com/download">Ubuntu</a>. <a href="https://archlinux.org/download/">Arch Linux</a>, however, is not recommended for first-time users.</p>
+<p>Install Mint <a href="https://linuxmint.com/download.php">here</a>.</p>
+<p>On this download page, you see 3 variants that you can choose from based on 3 different types of desktop environments, <em>Cinnamon</em> Edition, <em>Mate</em> Edition, and <em>Xfce</em> Edition. In this tutorials, I will use Cinnamon as a foundation. Cinnamon is the flagship and most popular desktop environment offered by the Linux Mint team.</p>
+
+    <img src="https://www.reallinuxuser.com/wp-content/uploads/2018/09/How-to-download-Linux-Mint-21-Cinnamon-001.jpg"  alt="choose your country"  class="center"  style="border-radius: 1px;"  />
+
+
+<p>A new page opens with the option between downloading via torrent or directly from a large number of Download mirrors.</p>
+<p>On this page scroll down until you reach your country or the most nearby country. In my case, I can choose from 2 different mirrors in the Vietnam (updated in 2025). Choose one of the mirror websites and click on it to start the download.</p>
+
+    <img src="https://cdn2.fptshop.com.vn/unsafe/800x0/linux_mint_hinh_5_2daadcb67b.jpg"  alt="choose your country"  class="center"  style="border-radius: 1px;"  />
+
+
+<p>Now you have the <code>.iso</code> file. Find a video on Youtube that will help you to install Linux. If you love reading, try to learn <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html">this article</a>.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Now, you know what Linux is and how to install it. This is the end of Part 1 in the series <a href="/tags/linux-for-beginner/">Linux for Beginner</a>. In <a href="/blog/2025/07/getting-started-with-linux/">Part 2</a>, We will start exploring Linux Mint.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Why Lua is good for beginners?</title>
+            <link>https://dattos-archive.click/blog/2025/03/why-lua-is-good-for-beginners/</link>
+            <pubDate>Tue, 18 Mar 2025 22:47:00 +0700</pubDate>
+            
+            <guid>https://dattos-archive.click/blog/2025/03/why-lua-is-good-for-beginners/</guid>
+            <description>&lt;p&gt;Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in this year and why it’s an excellent choice for beginners.&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in this year and why it’s an excellent choice for beginners.</p>
+<h2 id="introduction">Introduction</h2>
+<p>If you haven&rsquo;t heard of Lua, it&rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.</p>
+<p><a href="https://en.wikipedia.org/wiki/Lua_%28programming_language%29">Lua</a> is an open source language built on top of the <a href="https://en.wikipedia.org/wiki/C_%28programming_language%29">C programming language</a>. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.</p>
+<p>Lua has its value across multiple platforms ranging from large server systems to small mobile applications.</p>
+<h2 id="why-lua-should-be-learned">Why Lua Should Be Learned?</h2>
+<p>Lua is free open-source software, known especially for game development. Some key features which make Lua a popular choice are:</p>
+<ul>
+<li>Lua&rsquo;s syntax is simple and minimal, making it easy to learn.</li>
+<li>Lua uses dynamic typing, allowing you to assign any value to a variable without explicit type declaration.</li>
+<li>Lua can integrate with other programming languages and systems, which is used in multi-language projects.</li>
+<li>Lua is fast in terms of performance.</li>
+<li>Lua is highly portable. For example, it runs perfectly on any platforms that has a standard C compiler, including embedded processors, mobile devices and Windows.</li>
+</ul>
+<h2 id="jobs--opportunities">Jobs &amp; Opportunities</h2>
+<p>Well, learning only Lua wouldn&rsquo;t help you get any job but it is quite an essential tool to be skilled in if you are looking for these jobs:</p>
+<ul>
+<li>Game Developers</li>
+<li>Embedded systems developer</li>
+<li>Gameplay Programmer</li>
+<li>Software Developer</li>
+</ul>
+<h3 id="lua---scripted-video-games">Lua - Scripted video games</h3>
+<p>Are you big in to playing video games? Maybe you&rsquo;ve heard of some of these?</p>
+<ul>
+<li>Angry Birds</li>
+<li>Roblox</li>
+<li>Civilization V</li>
+<li>Heroes of Might and Magic V</li>
+<li>Saints Row 2</li>
+<li>SimCity 4</li>
+<li>Star Wars Battlefront</li>
+<li>World of Warcraft</li>
+</ul>
+<p>All of these games use Lua in some capacity, and there&rsquo;s MANY more. Most games or game engines will be written in C++ or C#, but using Lua on the front end for scripting allows for rapid development of these games. No need to re-compile each time. Compile your engine, and have it run the lua scripts. You can get started with <a href="https://love2d.org/">Love2d</a> or <a href="https://defold.com/">defold</a>.</p>
+<h3 id="hello-world-in-lua">&ldquo;Hello, World!&rdquo; in Lua</h3>
+<p>Lua is typically interpreted language, but it can also be compiled into bytecode for performance optimization. Here&rsquo;s its first &lsquo;Hello, World!&rsquo; example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-lua" data-lang="lua"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Hello, World!&#34;</span>)
+</span></span></code></pre></div><p>That&rsquo;s it! Does it looks familiar? You might have seen something similar in Python code.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Lua is fun to learn and work with it! If you don&rsquo;t know it, it wouldn&rsquo;t hurt to learn a new language. If you already know how to program, picking up Lua should be pretty quick. Read over this <a href="https://tylerneylon.com/a/learn-lua/">15 mins of lua</a>, and you will have a decent understanding of the syntax. At that point it&rsquo;s just a matter of digging in!</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Lumia 520: My First Smartphone</title>
+            <link>https://dattos-archive.click/blog/2024/11/lumia-520-my-first-smartphone/</link>
+            <pubDate>Fri, 29 Nov 2024 23:35:00 +0700</pubDate>
+            
+            <guid>https://dattos-archive.click/blog/2024/11/lumia-520-my-first-smartphone/</guid>
+            <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This page was automatically recreated by AI from an article on the old website.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Microsoft’s Windows Phone operating system officially &amp;ldquo;retired&amp;rdquo; on January 14, 2020. This was also when the legendary Windows 7 faded into the past to make way for newer names. The Lumia lineup, crafted by Nokia and later Microsoft Mobile, was born specifically to run this platform. Among them, the Lumia 520 was not only the most popular model but also the first smartphone that opened up a fascinating digital world for me. After 10 years, since my old 520 is broken, I decided to find that old feeling again with the Lumia 640 XL to see what this &amp;ldquo;old-timer&amp;rdquo; can still do in 2026, an era flooded with AI.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<blockquote>
+<p><em>This page was automatically recreated by AI from an article on the old website.</em></p></blockquote>
+<p>Microsoft’s Windows Phone operating system officially &ldquo;retired&rdquo; on January 14, 2020. This was also when the legendary Windows 7 faded into the past to make way for newer names. The Lumia lineup, crafted by Nokia and later Microsoft Mobile, was born specifically to run this platform. Among them, the Lumia 520 was not only the most popular model but also the first smartphone that opened up a fascinating digital world for me. After 10 years, since my old 520 is broken, I decided to find that old feeling again with the Lumia 640 XL to see what this &ldquo;old-timer&rdquo; can still do in 2026, an era flooded with AI.</p>
+<img src="Nokia-Lumia-520.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<p align="center"><i>The legendary Lumia 520, the gateway that led me into the world of technology</i></p>
+<h2 id="1-overview">1. Overview</h2>
+<p>My first smartphone, the Nokia Lumia 520, always holds a critical place in my tech-tinkering journey. I still clearly remember the excitement of unboxing it under the afternoon sun, admiring the vibrant replaceable plastic back cover. Despite being a budget device, it felt very solid, compact, and extremely refined.</p>
+<p>What impressed me the most was its pure simplicity. The Live Tiles interface on Windows Phone 8.1 looked very modern and intuitive at the time, not at all messy like the menus of the physical keypad phones I used before. Its performance back then was incredibly smooth, enough to meet all the exploration needs of a &ldquo;newbie&rdquo;.</p>
+<p>Even though the camera was only 5 MP and looks quite &ldquo;prehistoric&rdquo; by today&rsquo;s standards, it was a whole sky of technology back then. It helped me capture everyday moments in the easiest way possible.</p>
+<img src="image_2.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<p align="center"><i>Source: Internet</i></p>
+<h2 id="2-specifications">2. Specifications</h2>
+<p>A decade later, my memory as a Software Engineer has its limits, so I had to ask &ldquo;friend&rdquo; Google for a hint to compile this spec table for your reference.</p>
+<h3 id="lumia-520-configuration-details">Lumia 520 Configuration Details</h3>
+<div style="overflow-x: auto;">
+    <table>
+        <thead>
+            <tr style="background-color: rgba(128, 128, 128, 0.1); border-bottom: 2px solid #444;">
+                <th style="white-space: nowrap;">Specification</th>
+                <th style="text-align: left; white-space: nowrap;">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Processor</td>
+                <td>Qualcomm Snapdragon S4 Plus MSM8227 (2 x 1 GHz)</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Memory (RAM)</td>
+                <td>1 GB</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Storage</td>
+                <td>8 GB SSD</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Battery</td>
+                <td>1430 mAh</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h2 id="3-lumia-640-xl-a-successor-from-the-past">3. Lumia 640 XL: A Successor from the Past</h2>
+<p>When Windows Phone faded into history, I happened to read about the Windows 11 ARM project running on old devices, which immediately reminded me of the Lumias. Curious about the fate of a once-failed but potential-filled platform, I bought a Lumia 640 XL to test its survival capabilities.</p>
+<p>Comparing the Lumia 640 XL to today&rsquo;s borderless smartphones, the first feeling is an unusual sturdiness. The 5.7 inch screen, while not having a very high resolution, benefits from the IPS panel and ClearBlack technology, making colors very distinct, especially the deep blacks that make the Live Tiles pop.</p>
+<h3 id="lumia-640-xl-configuration-details">Lumia 640 XL Configuration Details</h3>
+<div style="overflow-x: auto; margin-top: 15px;">
+    <table>
+        <thead>
+            <tr style="background-color: rgba(128, 128, 128, 0.1); border-bottom: 2px solid #444;">
+                <th style="white-space: nowrap;">Specification</th>
+                <th style="text-align: left; white-space: nowrap;">Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Processor</td>
+                <td>Qualcomm Snapdragon 400 MSM8226/MSM8926</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Memory (RAM)</td>
+                <td>1 GB</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Storage</td>
+                <td>8 GB SSD</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Battery</td>
+                <td>3000 mAh</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h3 id="photography-with-zeiss-lens">Photography with ZEISS Lens</h3>
+<p>What I expected most was the 13 MP camera with a ZEISS lens. In good lighting, the photos have a level of detail and dynamic range (DR) that quite surprised me. It carries a very distinct color signature, not overly processed by AI like today&rsquo;s phone models.</p>
+<h2 id="4-surviving-with-a-dead-operating-system">4. &ldquo;Surviving&rdquo; with a Dead Operating System</h2>
+<p>The question is: What can a machine running Windows 10 Mobile do in 2026?</p>
+<div style="overflow-x: auto;">
+    <table>
+        <thead>
+            <tr style="background-color: rgba(128, 128, 128, 0.1); border-bottom: 24x solid #444;">
+                <th style="white-space: nowrap;">App</th>
+                <th style="text-align: left; white-space: nowrap;">Status in 2026</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Browser</td>
+                <td>Monument Browser still handles light news sites well.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Messaging</td>
+                <td>Unigram (Telegram client) is the only lifeline for communication.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
+                <td style="white-space: nowrap; font-weight: bold;">Entertainment</td>
+                <td>Offline music via SD card remains the ultimate choice.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>The reality is that most popular apps like Facebook or YouTube have stopped working. However, thanks to the community of developers who are still passionate, we can use web wrappers or third-party apps to maintain the most basic features.</p>
+<h2 id="5-crazy-project-windows-11-arm-on-lumia">5. Crazy Project: Windows 11 ARM on Lumia</h2>
+<p>This is the most dramatic part. I couldn&rsquo;t just let this machine sit quietly with its ancient OS. I experimented with installing the <strong>WOA (Windows on ARM)</strong> project on this 640 XL.</p>
+<p>The feeling of seeing the Windows 11 Start button appear on a phone from 2015 is truly hard to describe. Although the machine runs extremely hot and lags due to hardware limits, it proves one thing: The limit of technology only lies in our imagination.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The journey from Lumia 520 to 640 XL isn&rsquo;t just about swapping for a better phone, but it is how I keep a connection to memories from when I was just starting out in the Software Engineering industry.</p>
+<p>While it cannot be used as a primary device, whenever I need a quiet space to focus or simply want to feel nostalgic about the &ldquo;stone age&rdquo; of smartphones, I pick up this Lumia. Windows Phone may be commercially dead, but its soul lives on in the community of true tech lovers.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Talking About MacBook and MacOS: Why I Hate It</title>
+            <link>https://dattos-archive.click/blog/2024/11/talking-about-macbook-and-macos-why-i-hate-it/</link>
+            <pubDate>Wed, 27 Nov 2024 18:59:00 +0700</pubDate>
+            
+            <guid>https://dattos-archive.click/blog/2024/11/talking-about-macbook-and-macos-why-i-hate-it/</guid>
+            <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;This page was automatically recreated by AI from an article on the old website.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Rewinding to 2001, Apple introduced MacOS with a promise of a gorgeous, &amp;ldquo;anyone can use it&amp;rdquo; interface. Fast forward to 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But life isn&amp;rsquo;t always a dream; after some time, I had to say my goodbyes for some rather &amp;ldquo;unbelievable&amp;rdquo; reasons. Let’s break down why! 👇&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<blockquote>
+<p><em>This page was automatically recreated by AI from an article on the old website.</em></p></blockquote>
+<p>Rewinding to 2001, Apple introduced MacOS with a promise of a gorgeous, &ldquo;anyone can use it&rdquo; interface. Fast forward to 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But life isn&rsquo;t always a dream; after some time, I had to say my goodbyes for some rather &ldquo;unbelievable&rdquo; reasons. Let’s break down why! 👇</p>
+<p>I have to admit, MacOS on a MacBook is undeniably stable and optimized. However, there are &ldquo;black holes&rdquo; that make my experience quite&hellip; frustrating. This article reflects my personal views on why this duo failed to meet my expectations and why you shouldn&rsquo;t over-idealize its value.</p>
+<img src="MacOS-cons.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<h2 id="1-lack-of-customization">1. Lack of Customization</h2>
+<p>MacOS follows a &ldquo;take-it-or-leave-it&rdquo; design philosophy - super consistent, but it suffocates personal creativity. If you&rsquo;ve used Windows or are a Linux enthusiast (like me, currently on <a href="https://fedoraproject.org/">Fedora</a> and previously on <a href="https://nixos.org/">NixOS</a>) who loves tweaking everything, MacOS will be a total shock. It only lets you adjust a few basic things for fun. Want to change folder colors or mess with system icons? It&rsquo;s nearly impossible - a true pain for &ldquo;power users&rdquo;!</p>
+<h2 id="2-limited-compatibility-with-third-party-software">2. Limited Compatibility with Third-Party Software</h2>
+<p>MacOS often lacks compatibility with non-Apple applications. If you need specialized software, you might find it&rsquo;s unavailable on MacOS, as developers typically prioritize Windows due to its larger market share. Virtualization exists as an option, but it serves more as a workaround than a true solution. This is one factor contributing to the lack of customization I mentioned earlier.</p>
+<h2 id="3-gaming-experience">3. Gaming Experience</h2>
+<p>Are you a gamer or looking to dive into some Triple-A titles to de-stress? My condolences, because the MacBook isn&rsquo;t exactly in your league. Apple doesn&rsquo;t seem to care much about the gaming sector, resulting in a pitifully small game library. The lack of DirectX support - the &ldquo;soul&rdquo; of Windows gaming - means even ported games often run like they&rsquo;re &ldquo;gasping for air&rdquo;. And the Mac App Store? Nothing much to discuss there except its dullness.</p>
+<p>So, if you aren&rsquo;t the &ldquo;all work and no play&rdquo; type, take a look at the Acer, Asus, or Lenovo families. They perform well, play hard, and won&rsquo;t leave your wallet &ldquo;in pain&rdquo; like a MacBook would.</p>
+<h2 id="4-proprietary-hardware-and-overpriced">4. Proprietary Hardware and Overpriced</h2>
+<p>Indeed! I&rsquo;d have to say that MacBook is delusional with pricing. From my perspective, brands like Dell, Acer, and Surface are not only the alternative options to save money if you&rsquo;re on a budget but also can still handle all your office tasks effectively.</p>
+<p>One major drawback of MacOS is its requirement for Apple hardware. Although MacBooks and iMacs are beautiful, they are expensive. Users must buy a Mac to access MacOS, with no option to build a more affordable custom system like with PCs.</p>
+<p>And who the heck said that 8GB of RAM on MacOS is the same as 16GB on a Laptop Windows?? Foolish!</p>
+<h2 id="5-incompatibility-with-industry-standards">5. Incompatibility with Industry Standards</h2>
+<p>If you work in an industry where Windows is &ldquo;king,&rdquo; using MacOS feels like being in a house where everyone speaks a different language. Microsoft Office on Mac is always missing this or that feature compared to the Windows version. This makes collaborating with Windows-based colleagues or clients quite cumbersome.</p>
+<h2 id="6-hardware-upgrading-apple-says-no">6. Hardware Upgrading? Apple says no!</h2>
+<p>Apple&rsquo;s decision to use proprietary components limits user flexibility. Since RAM and storage are often soldered in, upgrading is either difficult or impossible, leaving you with a fixed configuration and few options for increased power later.</p>
+<p>After three years, let&rsquo;s see if the person who said that 8GB Mac RAM is the same as 16GB Windows RAM could say that again :))</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The MacBook has excellent build quality, and MacOS offers stable performance and strong privacy, which is why it has such a loyal fanbase. However, the high cost and the limitations mentioned above remain massive hurdles. If you&rsquo;re an Apple &ldquo;die-hard&rdquo; and ready to ignore all the flaws - especially that stinging price tag - then go for it. If not, there are plenty of &ldquo;other lands&rdquo; out there that might suit you better.</p>
+<p>Even though Apple is still the &ldquo;boss&rdquo; thanks to top-tier quality, if they don&rsquo;t fix these weaknesses, even loyal customers might eventually &ldquo;pull a U-turn&rdquo; because of the cost!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

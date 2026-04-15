@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Kiyoshi Datto]">
+<meta name="description" content=" Source: Facebook
+This is an analytical post regarding the USB-based final exam system used by University F**. This is Windows To Go - a complete Windows OS contained within a 64GB USB drive, encrypted with Bitlocker.
+Read full: here.
+Quick Summary: How it works USB chứa Windows 10 IoT Enterprise LTSC chạy ở chế độ Kiosk - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.
+" />
+<meta name="keywords" content=", software" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/" />
+
+
+    <title>
+        
+            Analysis of the exam system at University F** :: Datto&#39;s Archive  - English
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="https://dattos-archive.click/main.min.07ea7ac7da67e2e153a7dfa2457bc6a19cca824288d175e223fadc579041bc51.css" integrity="sha256-B&#43;p6x9pn4uFTp9&#43;iRXvGoZzKgkKI0XXiI/rcV5BBvFE=" crossorigin="anonymous">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="https://dattos-archive.click/css/custom.css">
+    
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dattos-archive.click/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dattos-archive.click/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dattos-archive.click/favicon-16x16.png">
+    <link rel="manifest" href="https://dattos-archive.click/site.webmanifest">
+    <link rel="mask-icon" href="https://dattos-archive.click/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://dattos-archive.click/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Analysis of the exam system at University F**">
+  <meta itemprop="description" content="Source: Facebook
+This is an analytical post regarding the USB-based final exam system used by University F**. This is Windows To Go - a complete Windows OS contained within a 64GB USB drive, encrypted with Bitlocker.
+Read full: here.
+Quick Summary: How it works USB chứa Windows 10 IoT Enterprise LTSC chạy ở chế độ Kiosk - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.">
+  <meta itemprop="datePublished" content="2026-04-15T13:00:00+07:00">
+  <meta itemprop="dateModified" content="2026-04-15T13:00:00+07:00">
+  <meta itemprop="wordCount" content="323">
+  <meta itemprop="image" content="https://dattos-archive.click/">
+  <meta itemprop="keywords" content="Software">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dattos-archive.click/">
+  <meta name="twitter:title" content="Analysis of the exam system at University F**">
+  <meta name="twitter:description" content="Source: Facebook
+This is an analytical post regarding the USB-based final exam system used by University F**. This is Windows To Go - a complete Windows OS contained within a 64GB USB drive, encrypted with Bitlocker.
+Read full: here.
+Quick Summary: How it works USB chứa Windows 10 IoT Enterprise LTSC chạy ở chế độ Kiosk - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2026-04-15 13:00:00 &#43;0700 &#43;07" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://dattos-archive.click/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">$</span>
+            <span class="logo__text ">
+                cd /main/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   animation-duration:1s;">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://dattos-archive.click/about/">About</a></li><li><a href="https://dattos-archive.click/archivers/">Archivers</a></li><li><a href="https://dattos-archive.click/blog/">Blog</a></li><li><a href="https://dattos-archive.click/privacy/">Privacy</a></li><li><a href="https://dattos-archive.click/revisit/">Revisit</a></li>
+
+        
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+
+            <span class="menu-divider">|</span>
+            <span class="language-selector">
+                <ul class="submenu">
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">EN</a>
+                        <div class="dropdown-content">
+                                
+                                    <a title="VN" href="https://dattos-archive.click/vi/blog/2026/04/phan-tich-he-thong-thi-bang-usb-cua-truong-dai-hoc-f/">VN</a>
+                                
+                        </div>
+                    </li>
+                </ul>
+            </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        2 minutes
+
+         | Also available in
+          
+              <a href="https://dattos-archive.click/vi/blog/2026/04/phan-tich-he-thong-thi-bang-usb-cua-truong-dai-hoc-f/"><span class="flag fi fi-vn"></span></a>
+          
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/">Analysis of the exam system at University F**</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <blockquote>
+<p><strong>Source</strong>: <a href="https://www.facebook.com/photo/?fbid=1323516489706345">Facebook</a></p></blockquote>
+<hr>
+<p>This is an analytical post regarding the <strong>USB-based final exam system</strong> used by University F**. This is <strong>Windows To Go</strong> - a complete Windows OS contained within a 64GB USB drive, encrypted with <strong>Bitlocker</strong>.</p>
+<p>Read full: <a href="https://th1nhhdk.github.io/blog/post/2026/03/31/phan-tich-he-thong-thi-bang-usb-cua-truong-dh-f/">here</a>.</p>
+<img src="analysis-of-the-exam-system-at-university-f_image_1.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<h2 id="quick-summary">Quick Summary:</h2>
+<h4 id="how-it-works">How it works</h4>
+<ul>
+<li>
+<p>USB chứa <strong>Windows 10 IoT Enterprise LTSC</strong> chạy ở <strong>chế độ Kiosk</strong> - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.</p>
+</li>
+<li>
+<p>Students plug the USB into their personal laptops and boot from the USB instead of using the pre-installed operating system.</p>
+</li>
+<li>
+<p>The USB contains <strong>Windows 10 IoT Enterprise LTSC</strong> running in <strong>Kiosk mode</strong> - allowing only the exam software to run while blocking all other operations.</p>
+</li>
+</ul>
+<h4 id="analysis-process">Analysis Process</h4>
+<ol>
+<li>
+<p><strong>USB Cloning</strong>: The author cloned the entire 64GB drive into an <code>.img</code> bằng <code>dd</code>.</p>
+</li>
+<li>
+<p><strong>Bitlocker Decryption</strong>: The OS partition was encrypted, but the decryption key (the <code>.BEK</code> file) was located right on the EFI partition - requiring no password for access.</p>
+</li>
+</ol>
+<h4 id="content-analysis">Content Analysis</h4>
+<ul>
+<li>
+<p>The OS is configured to: auto-reboot upon crashing, utilize performance tweaks, and has file indexing disabled.</p>
+</li>
+<li>
+<p>It includes <strong>Snappy Driver Installer</strong> + <strong>Driver Installer</strong> to ensure driver compatibility across various hardware.</p>
+</li>
+<li>
+<p>Logs indicate that the USB was created and tested within <strong>VirtualBox</strong>.</p>
+</li>
+</ul>
+<h4 id="exam-software-eclientexe">Exam Software (E**Client.exe):</h4>
+<ul>
+<li>
+<p>Runs in fullscreen mode and blocks <strong>Alt+Tab</strong>.</p>
+</li>
+<li>
+<p>Captures a photo of the candidate via webcam at the start of the exam.</p>
+</li>
+<li>
+<p>Submits the exam via an internal server within the university.</p>
+</li>
+</ul>
+<h4 id="booting-in-a-vm">Booting in a VM::</h4>
+<ul>
+<li>The author converted the <code>.img</code> -&gt; <code>.vmdk</code> and booted it in <strong>VMWare</strong> for verification - confirming that the <strong>Kiosk</strong> functions exactly as described.</li>
+</ul>
+<h4 id="conclusion">Conclusion</h4>
+<ul>
+<li>
+<p>The system is <strong>quite secure</strong> - cheating is very difficult or impractical.</p>
+</li>
+<li>
+<p>Even if the USB restrictions were bypassed, secretly opening additional software in <strong>Kiosk mode</strong> without being detected by a proctor is nearly impossible.</p>
+</li>
+<li>
+<p><em>Disadvantages</em>: The cost of purchasing ~300 64GB USB drives is quite high, and stability depends on the diverse drivers and hardware of the students&rsquo; laptops.</p>
+</li>
+</ul>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://dattos-archive.click/tags/software/">software</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        323 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2026-04-15 13:00
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+    <div class="pagination">
+        
+
+        <div class="pagination__buttons">
+            
+
+            
+            <span class="button next">
+                <a href="https://dattos-archive.click/blog/2025/07/getting-started-with-linux/">
+                    <span class="button__text">Getting Started with Linux</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2026</span>
+            
+            <span><a href="https://dattos-archive.click/">FireHelper</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span><a href="https://dattos-archive.click/blog/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+            
+        </div>
+    </div>
+    
+    
+</footer>
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://dattos-archive.click/bundle.min.ad54ad97364f77ede35def9096b162bb1f0b3973aa50b080f5e82fa147f6882e2a7200d7535adbf9b51bebf939f1c1ca9bbe6be87530092aca720eac4a226fda.js" integrity="sha512-rVStlzZPd&#43;3jXe&#43;QlrFiux8LOXOqULCA9egvoUf2iC4qcgDXU1rb&#43;bUb6/k58cHKm75r6HUwCSrKcg6sSiJv2g=="></script>
+
+
+    
+        <script src="https://dattos-archive.click/js/theme-toggle.js"></script>
+    
+
+
+
+    </body>
+</html>

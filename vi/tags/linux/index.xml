@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Datto&#39;s Archive</title>
+    <link>https://dattos-archive.click/vi/tags/linux/</link>
+    <description>Recent content in Linux on Datto&#39;s Archive</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 01 Jul 2025 21:16:00 +0700</lastBuildDate>
+    <atom:link href="https://dattos-archive.click/vi/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bắt đầu với Linux</title>
+      <link>https://dattos-archive.click/vi/blog/2025/07/bat-dau-voi-linux/</link>
+      <pubDate>Tue, 01 Jul 2025 21:16:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2025/07/bat-dau-voi-linux/</guid>
+      <description>&lt;p&gt;Trang này hiện tạm thời không khả dụng do đang được nâng cấp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux dành cho người mới bắt đầu</title>
+      <link>https://dattos-archive.click/vi/blog/2025/05/linux-danh-cho-nguoi-moi-bat-dau/</link>
+      <pubDate>Sat, 31 May 2025 22:23:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2025/05/linux-danh-cho-nguoi-moi-bat-dau/</guid>
+      <description>&lt;p&gt;Nếu bạn là &amp;ldquo;lính mới&amp;rdquo; trong thế giới Linux, bài viết này sẽ giúp bạn bắt đầu với một trong những hệ điều hành mạnh mẽ và linh hoạt nhất hiện nay. Linux hiện diện ở khắp mọi nơi, từ những chiếc smartphone nhỏ gọn đến những siêu máy tính khổng lồ, nổi tiếng nhờ tính ổn định, bảo mật và sự tùy biến không giới hạn.&lt;/p&gt;&#xA;&lt;p&gt;Trong bài viết này, chúng ta sẽ cùng khám phá Linux là gì, nó hoạt động ra sao và mình sẽ giới thiệu cho các bạn những bản phân phối (distros) cực kỳ thân thiện với người mới như Ubuntu hay Linux Mint. Bạn cũng sẽ học được những bước cơ bản để &amp;ldquo;vọc vạch&amp;rdquo; Linux, từ giao diện đồ họa đến những dòng lệnh Terminal đầy quyền năng, để tự tin bước chân vào thế giới mã nguồn mở.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datto&#39;s Archive</title>
+    <link>https://dattos-archive.click/vi/</link>
+    <description>Recent content on Datto&#39;s Archive</description>
+    <generator>Hugo</generator>
+    <language>vi-vn</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 15 Apr 2026 13:14:00 +0700</lastBuildDate>
+    <atom:link href="https://dattos-archive.click/vi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Phân tích hệ thống thi bằng USB của Trường Đại Học F**</title>
+      <link>https://dattos-archive.click/vi/blog/2026/04/phan-tich-he-thong-thi-bang-usb-cua-truong-dai-hoc-f/</link>
+      <pubDate>Wed, 15 Apr 2026 13:00:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2026/04/phan-tich-he-thong-thi-bang-usb-cua-truong-dai-hoc-f/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Nguồn&lt;/strong&gt;: &lt;a href=&#34;https://www.facebook.com/photo/?fbid=1323516489706345&#34;&gt;Facebook&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Đây là bài viết phân tích &lt;strong&gt;hệ thống thi cuối kỳ bằng USB&lt;/strong&gt; của một trường đại học F (giấu tên). Đây là hệ thống &lt;strong&gt;Windows To Go&lt;/strong&gt; - một HĐH Windows hoàn chỉnh chứa trên USB 64GB, được mã hóa &lt;strong&gt;Bitlocker&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Xem đầy đủ bài phân tích: &lt;a href=&#34;https://th1nhhdk.github.io/blog/post/2026/03/31/phan-tich-he-thong-thi-bang-usb-cua-truong-dh-f/&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;img src=&#34;analysis-of-the-exam-system-at-university-f_image_1.webp&#34; style=&#34;display: block; margin: 0 auto; width: 100%; border-radius: 8px&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;tóm-tắt-nhanh&#34;&gt;Tóm tắt nhanh:&lt;/h2&gt;&#xA;&lt;h4 id=&#34;cách-hoạt-động&#34;&gt;Cách hoạt động&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Sinh viên cắm USB vào laptop cá nhân và boot từ USB thay vì dùng HĐH có sẵn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jper - Japanese Kana Games</title>
+      <link>https://dattos-archive.click/vi/archivers/active/jper/</link>
+      <pubDate>Tue, 14 Apr 2026 13:46:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/active/jper/</guid>
+      <description>&lt;p&gt;Bạn cảm thấy lo lắng vì phải học hàng loạt bảng chữ cái tiếng Nhật và phải ghi nhớ tất cả chúng?&lt;/p&gt;&#xA;&lt;p&gt;Đừng lo lắng! Jper: Japanese Kana Games ra đời để biến hành trình học tập của bạn từ một thử thách khó khăn trở thành một trải nghiệm thú vị và dễ dàng hơn.&lt;/p&gt;&#xA;&lt;p&gt;Dù bạn là người mới bắt đầu hay một đứa trẻ đang khám phá ngôn ngữ mới, Jper chính là nền tảng hoàn hảo để bạn làm quen với tiếng Nhật thông qua việc lắng nghe và vui chơi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dấu ấn cũ</title>
+      <link>https://dattos-archive.click/vi/dau-an-cu/</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/vi/dau-an-cu/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;[⚠ LƯU Ý]&lt;/strong&gt;&#xA;Bạn đang truy cập vào các trang web cũ của chúng tôi, bao gồm các phiên bản tiền thân của Datto&amp;rsquo;s Archive.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Các trang Web được liệt kê bên dưới hiện không còn được hỗ trợ hoặc sẽ sớm ngừng hỗ trợ trong thời gian tới.&lt;/p&gt;&#xA;&lt;div style=&#34;overflow-x: auto;&#34;&gt;&#xD;&#xA;    &lt;table&gt;&#xD;&#xA;        &lt;thead&gt;&#xD;&#xA;            &lt;tr style=&#34;background-color: rgba(128, 128, 128, 0.1); border-bottom: 2px solid #444;&#34;&gt;&#xD;&#xA;                &lt;th style=&#34;white-space: nowrap;&#34;&gt;Tên Website&lt;/th&gt;&#xD;&#xA;                &lt;th style=&#34;text-align: center; white-space: nowrap;&#34;&gt;Liên kết&lt;/th&gt;&#xD;&#xA;                &lt;th style=&#34;text-align: left;&#34;&gt;Trạng thái&lt;/th&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;        &lt;/thead&gt;&#xD;&#xA;        &lt;tbody&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;DatIT’s website (Old)&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/DatIT/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Phiên bản cũ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;FireHelper&#39;s Portfolio (Old)&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/FireHelper/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Phiên bản cũ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Thu khoa ly&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/thu-khoa-ly/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Lưu trữ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Face Recognition Project&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/FaceRecognition-Project/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Bị Huỷ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Sorting Algorithms in JS&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/Sorting-Algorithms-in-JS/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Bị Huỷ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Fumo&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/fumo/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Lưu trữ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Wheel&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://datit-026.github.io/wheel/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Lưu trữ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Mr. Dat Vn&#39;s Blogspot&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://firehelperpeople.blogspot.com/&#34; target=&#34;_blank&#34;&gt;Truy cập&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;Phiên bản cũ&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;        &lt;/tbody&gt;&#xD;&#xA;    &lt;/table&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;Ngoài ra, bạn có thể tìm thấy các tài liệu lưu trữ khác của chúng tôi &lt;a href=&#34;https://dattos-archive.click/vi/archivers/&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bắt đầu với Linux</title>
+      <link>https://dattos-archive.click/vi/blog/2025/07/bat-dau-voi-linux/</link>
+      <pubDate>Tue, 01 Jul 2025 21:16:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2025/07/bat-dau-voi-linux/</guid>
+      <description>&lt;p&gt;Trang này hiện tạm thời không khả dụng do đang được nâng cấp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux dành cho người mới bắt đầu</title>
+      <link>https://dattos-archive.click/vi/blog/2025/05/linux-danh-cho-nguoi-moi-bat-dau/</link>
+      <pubDate>Sat, 31 May 2025 22:23:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2025/05/linux-danh-cho-nguoi-moi-bat-dau/</guid>
+      <description>&lt;p&gt;Nếu bạn là &amp;ldquo;lính mới&amp;rdquo; trong thế giới Linux, bài viết này sẽ giúp bạn bắt đầu với một trong những hệ điều hành mạnh mẽ và linh hoạt nhất hiện nay. Linux hiện diện ở khắp mọi nơi, từ những chiếc smartphone nhỏ gọn đến những siêu máy tính khổng lồ, nổi tiếng nhờ tính ổn định, bảo mật và sự tùy biến không giới hạn.&lt;/p&gt;&#xA;&lt;p&gt;Trong bài viết này, chúng ta sẽ cùng khám phá Linux là gì, nó hoạt động ra sao và mình sẽ giới thiệu cho các bạn những bản phân phối (distros) cực kỳ thân thiện với người mới như Ubuntu hay Linux Mint. Bạn cũng sẽ học được những bước cơ bản để &amp;ldquo;vọc vạch&amp;rdquo; Linux, từ giao diện đồ họa đến những dòng lệnh Terminal đầy quyền năng, để tự tin bước chân vào thế giới mã nguồn mở.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tại sao bạn lại nên học Lua từ sớm?</title>
+      <link>https://dattos-archive.click/vi/blog/2025/03/tai-sao-ban-lai-nen-hoc-lua-tu-som/</link>
+      <pubDate>Tue, 18 Mar 2025 22:47:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2025/03/tai-sao-ban-lai-nen-hoc-lua-tu-som/</guid>
+      <description>&lt;p&gt;Chào mọi người! Đây là bài blog đầu tiên của mình về các ngôn ngữ lập trình. Chủ đề hôm nay sẽ là: Tại sao bạn nên học Lua ngay trong năm nay và vì sao nó là một lựa chọn cực kỳ sáng suốt cho những người mới bắt đầu.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mở-đầu&#34;&gt;Mở đầu&lt;/h2&gt;&#xA;&lt;p&gt;Nếu bạn chưa từng nghe đến Lua, thì đây là một ngôn ngữ lập trình &amp;ldquo;nhỏ nhưng có võ&amp;rdquo;. Có thể bạn đã nghe qua tên em nó rồi, nhưng chưa có lý do để học là bởi vì ngôn ngữ lập trình yêu thích của bạn hiện tại đã cân được gần hết mọi nhu cầu rồi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chính sách về Quyền riêng tư và Bảo mật Dữ liệu cá nhân</title>
+      <link>https://dattos-archive.click/vi/chinh-sach-ve-quyen-rieng-tu-va-bao-mat-du-lieu-ca-nhan/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/vi/chinh-sach-ve-quyen-rieng-tu-va-bao-mat-du-lieu-ca-nhan/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;FireHelper&lt;/strong&gt; xem quyền riêng tư của bạn là vấn đề rất nghiêm túc. FireHelper cam kết bảo vệ sự riêng tư của người dùng và chính sách về quyền riêng tư này giải thích việc thu thập, sử dụng và tiết lộ dữ liệu của chúng tôi. Chính sách bảo mật dữ liệu cá nhân này áp dụng trên tất cả website mà chúng tôi đang hỗ trợ, ứng dụng di động và toàn bộ nền tảng dịch vụ khác của chúng tôi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu</title>
+      <link>https://dattos-archive.click/vi/ve/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://dattos-archive.click/vi/ve/</guid>
+      <description>&lt;h2 id=&#34;kiyoshi-datto-là-ai&#34;&gt;Kiyoshi Datto là ai?&lt;/h2&gt;&#xA;&lt;p&gt;Chào các bạn! Tôi là Kiyoshi Datto (tên thật là Hà Nguyễn Tiến Đạt), hiện tại là sinh viên chuyên ngành &lt;strong&gt;Kỹ thuật Phần mềm (Software Engineering)&lt;/strong&gt;. Có niềm đam mê mãnh liệt với việc tìm hiểu và khám phá nhiều công nghệ mới ngoài kia, các ngôn ngữ lập trình mà tôi đã học và thường (hoặc không) sử dụng cho các dự án bao gồm: &lt;a href=&#34;https://en.wikipedia.org/wiki/Java_%28programming_language%29&#34;&gt;Java&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/JavaScript&#34;&gt;JavaScript&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Python_%28programming_language%29&#34;&gt;Python&lt;/a&gt; và &lt;a href=&#34;https://go.dev/&#34;&gt;Golang&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới thiệu ứng dụng UrGift</title>
+      <link>https://dattos-archive.click/vi/archivers/retired/urgift/</link>
+      <pubDate>Fri, 14 Feb 2025 12:16:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/retired/urgift/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;[⚠ EOL]&lt;/strong&gt;&#xA;Dự án này đã &lt;strong&gt;ngừng phát triển&lt;/strong&gt; kể từ ngày 19 tháng 2 năm 2026.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Một cách khác để bày tỏ tâm tư với người mình thương.&lt;/p&gt;&#xA;&#xD;&#xA;    &lt;img src=&#34;https://raw.githubusercontent.com/DatIT-026/DatIT/refs/heads/main/Blog/2025/urgift-app/urgift.webp&#34;  alt=&#34;UrGift&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Tỏ tình bằng công nghệ là một cách tiếp cận mới mẻ và hiện đại so với những phương thức truyền thống. &lt;strong&gt;UrGift&lt;/strong&gt; là một ứng dụng thú vị giúp bạn bày tỏ tình cảm theo cách độc đáo và ấn tượng. Dựa trên trang web tỏ tình gốc dành cho máy tính (Desktop), UrGift phiên bản Android sở hữu thiết kế đơn giản và đã được tối ưu hóa. Một số tính năng từ phiên bản máy tính đã được lược bỏ, nhưng bù lại, những tính năng mới lạ và thú vị đã được thêm vào để giúp màn tỏ tình của bạn trở nên trọn vẹn hơn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Công cụ Thiết lập và Sửa lỗi Windows (SAFW)</title>
+      <link>https://dattos-archive.click/vi/archivers/active/safw/</link>
+      <pubDate>Mon, 02 Dec 2024 23:11:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/active/safw/</guid>
+      <description>&lt;p&gt;Dự án này sẽ &lt;strong&gt;chính thức ngừng hỗ trợ&lt;/strong&gt; vào ngày 31 tháng 12 năm 2026.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Một tiện ích dòng lệnh (CLI) tinh gọn giúp truy cập nhanh các thiết lập Windows và xử lý các sự cố thường gặp. Các tính năng chính bao gồm:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Cấu hình hệ thống:&lt;/strong&gt; Truy cập nhanh Computer Management, System Properties và quản lý các chương trình (Programs).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mạng &amp;amp; Thiết bị:&lt;/strong&gt; Quản lý các tùy chọn Mạng (Network), Chia sẻ (Sharing) và In ấn (Print).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chiếc điện thoại đầu tiên của tôi: Lumia 520</title>
+      <link>https://dattos-archive.click/vi/blog/2024/11/chiec-dien-thoai-dau-tien-cua-toi-lumia-520/</link>
+      <pubDate>Fri, 29 Nov 2024 23:35:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2024/11/chiec-dien-thoai-dau-tien-cua-toi-lumia-520/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Trang này được tự động tạo lại bởi AI từ một bài viết ở Website cũ.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Hệ điều hành Windows Phone của Microsoft đã chính thức &amp;ldquo;về hưu&amp;rdquo; vào ngày 14/01/2020. Đây cũng là thời điểm mà Windows 7 huyền thoại lùi vào dĩ vãng để nhường chỗ cho những cái tên mới hơn. Những dòng máy Lumia, vốn được Nokia và sau này là Microsoft Mobile nhào nặn, sinh ra là để chạy riêng cho nền tảng này. Trong số đó, Lumia 520 không chỉ là mẫu máy phổ biến nhất mà còn là chiếc smartphone đầu tiên mở ra thế giới số đầy thú vị cho mình. Sau 10 năm, khi chiếc 520 cũ đã hỏng, mình quyết định tìm lại chút cảm giác xưa với chiếc Lumia 640 XL để xem &amp;ldquo;cụ giáo&amp;rdquo; này còn làm được gì giữa năm 2026 đầy rẫy AI này.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hoàn thành Dự án Website Portfolio Windows 95 ✔</title>
+      <link>https://dattos-archive.click/vi/archivers/active/portfolio-windows-95-project/</link>
+      <pubDate>Mon, 02 Sep 2024 21:36:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/active/portfolio-windows-95-project/</guid>
+      <description>&lt;p&gt;Mang trải nghiệm Windows 95 kinh điển lên trình duyệt web hiện đại. Dự án là một thử nghiệm vui với Web Components nhằm tạo ra một Portfolio đầy tính tương tác và sáng tạo. Hy vọng bạn sẽ thấy thú vị khi khám phá nó!&lt;/p&gt;&#xA;&#xD;&#xA;    &lt;img src=&#34;https://raw.githubusercontent.com/DatIT-026/Win95WebProject/refs/heads/main/win95.png&#34;  alt=&#34;SAFW&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px;&#34;  /&gt;&#xD;&#xA;&#xD;&#xA;&#xA;&lt;p&gt;Xem bản demo trực tuyến &lt;a href=&#34;https://datit-026.github.io/Win95WebProject/&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Xem nhật ký thay đổi &lt;a href=&#34;https://github.com/DatIT-026/Win95WebProject/releases&#34;&gt;tại đây&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ReSolve</title>
+      <link>https://dattos-archive.click/vi/archivers/retired/resolve/</link>
+      <pubDate>Wed, 23 Aug 2023 18:41:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/retired/resolve/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;[⚠ EOL]&lt;/strong&gt;&#xA;Dự án này đã &lt;strong&gt;chính thức ngừng hỗ trợ&lt;/strong&gt; kể từ ngày 30 tháng 8 năm 2023.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;🔎 Hoạt động:&lt;/p&gt;&#xA;&lt;p&gt;Ngày 29/08/2023: Ngừng hỗ trợ mọi thông tin liên quan đến dự án.&lt;/p&gt;&#xA;&lt;p&gt;Ngày 30/08/2023: Gỡ bỏ tất cả quyền truy cập và liên kết tải xuống cho dự án ReSolve.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;⚠ THÔNG BÁO&lt;/strong&gt;:&#xA;Người dùng cần chủ động gỡ cài đặt mọi tệp tin của công cụ ReSolve (nếu vẫn còn lưu trên thiết bị).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Catch Me If You Can</title>
+      <link>https://dattos-archive.click/vi/archivers/active/cmiyc/</link>
+      <pubDate>Sat, 13 Nov 2021 15:28:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/active/cmiyc/</guid>
+      <description>&lt;p&gt;Đây là phiên bản chính thức cho tựa game đầu tay cực kỳ thú vị của mình. Game rất đơn giản, bạn chỉ cần làm theo hướng dẫn trong trò chơi. Hy vọng rằng bạn sẽ yêu thích nó.&lt;/p&gt;&#xA;&lt;img src=&#34;cmiyc_image_1.webp&#34; style=&#34;display: block; margin: 0 auto; width: 100%; border-radius: 8px&#34;&gt;&#xD;&#xA;&lt;p&gt;Trải nghiệm trực tiếp &lt;a href=&#34;https://itch.io/embed/2518374&#34;&gt;tại đây&lt;/a&gt; hoặc bạn có thể tải về tại:&lt;/p&gt;&#xA;&lt;div style=&#34;overflow-x: auto;&#34;&gt;&#xD;&#xA;    &lt;table&gt;&#xD;&#xA;        &lt;thead&gt;&#xD;&#xA;            &lt;tr style=&#34;background-color: rgba(128, 128, 128, 0.1); border-bottom: 2px solid #444;&#34;&gt;&#xD;&#xA;                &lt;th style=&#34;white-space: nowrap;&#34;&gt;Phiên bản&lt;/th&gt;&#xD;&#xA;                &lt;th style=&#34;text-align: center; white-space: nowrap;&#34;&gt;Tải xuống&lt;/th&gt;&#xD;&#xA;                &lt;th style=&#34;text-align: left;&#34;&gt;Mô tả&lt;/th&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;        &lt;/thead&gt;&#xD;&#xA;        &lt;tbody&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Catch Me If You Can - 2021&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1DubOSmJKgCkAHnI1toQUgzy6ay1AGAeA/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;99 MB (November 13, 2021)&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;            &lt;tr style=&#34;border-bottom: 1px solid rgba(128, 128, 128, 0.2);&#34;&gt;&#xD;&#xA;                &lt;td style=&#34;white-space: nowrap; font-weight: bold;&#34;&gt;Catch Me If You Can - Beta&lt;/td&gt;&#xD;&#xA;                &lt;td style=&#34;text-align: center; white-space: nowrap;&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1fL-il7c9EsdbuvNoJJ6jvHGod3GfdS-n/&#34; target=&#34;_blank&#34;&gt;Link&lt;/a&gt;&lt;/td&gt;&#xD;&#xA;                &lt;td&gt;97 MB (August 9, 2021)&lt;/td&gt;&#xD;&#xA;            &lt;/tr&gt;&#xD;&#xA;        &lt;/tbody&gt;&#xD;&#xA;    &lt;/table&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Lemon App</title>
+      <link>https://dattos-archive.click/vi/archivers/retired/lemon-app/</link>
+      <pubDate>Thu, 31 Dec 2020 16:21:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/retired/lemon-app/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;[⚠ EOL]&lt;/strong&gt;&#xA;Dự án này đã &lt;strong&gt;ngừng phát triển&lt;/strong&gt; kể từ ngày 31 tháng 12 năm 2020.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Xin chào, chúng tôi hiện đã ngừng hỗ trợ ứng dụng Lemon App sau ngày 31/12/2020 để tập chung tạo một sản phẩm khác thú vị hơn đem lại lợi ích cho người dùng. Chúng tôi xin cảm ơn vì bạn đã tin tưởng và sử dụng sản phẩm của chúng tôi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Restore Wifi (Công cụ Sửa lỗi Wifi)</title>
+      <link>https://dattos-archive.click/vi/archivers/retired/restore-wifi/</link>
+      <pubDate>Tue, 15 Dec 2020 23:59:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/retired/restore-wifi/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;[⚠ EOL]&lt;/strong&gt;&#xA;Dự án này đã &lt;strong&gt;chính thức ngừng phát triển&lt;/strong&gt; kể từ ngày 15 tháng 12 năm 2020.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Xin chào, có lẽ như chúng tôi có tin không vui đến cho bạn, phần mềm Khôi Phục Wifi sẽ chính thức khai tử vào ngày 15/12/2020.&lt;/p&gt;&#xA;&lt;p&gt;Sau thời gian này, sẽ không có bản cập nhật nào mới hoặc bản vá lỗi nào cho bạn. Vì thế, chúng tôi khuyên bạn hãy gỡ bỏ phần mềm vì các tin tặc có thể tấn công và đánh cắp dữ liệu của bạn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GSC - Google Slide Crawler</title>
+      <link>https://dattos-archive.click/vi/archivers/active/google_slide_crawler/</link>
+      <pubDate>Wed, 15 Apr 2026 13:14:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/archivers/active/google_slide_crawler/</guid>
+      <description>&lt;p&gt;Bạn muốn tải Google Presentation về để tiện xem tài liệu mọi lúc mọi nơi, ngay cả khi không có mạng, nhưng chủ sở hữu lại chặn nút tải? Đừng lo, Google Slide Crawler (GSC) ra đời chính là để giúp bạn giải quyết vấn đề đó!&lt;/p&gt;&#xA;&lt;img src=&#34;gsc_image_1.webp&#34; style=&#34;display: block; margin: 0 auto; width: 100%; border-radius: 8px&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;-có-gì-hot&#34;&gt;✨ Có gì hot?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Xuất nhanh với một cú nhấp chuột&lt;/strong&gt;: Chuyển đổi slides sang PDF trực tiếp ngay trên trình duyệt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bàn về MacBook va MacOS: Tại sao tôi lại ghét nó</title>
+      <link>https://dattos-archive.click/vi/blog/2024/11/ban-ve-macbook-va-macos-tai-sao-toi-lai-ghet-no/</link>
+      <pubDate>Wed, 27 Nov 2024 18:59:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/vi/blog/2024/11/ban-ve-macbook-va-macos-tai-sao-toi-lai-ghet-no/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Trang này được tự động tạo lại bởi AI từ một bài viết ở Website cũ.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Ngược dòng thời gian về năm 2001, Apple trình làng MacOS với lời hứa hẹn về một giao diện đẹp lung linh và dễ dùng đến mức &amp;ldquo;ai cũng dùng được&amp;rdquo;. Đến năm 2006, MacBook xuất hiện và ai cũng nghĩ nó sẽ thống trị thế giới laptop. Nhưng đời không như là mơ, sau một thời gian trải nghiệm, tôi đã phải nói lời chia tay vì vài lý do &amp;ldquo;khó đỡ&amp;rdquo;. Cùng tôi bóc tách xem tại sao nhé! 👇&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

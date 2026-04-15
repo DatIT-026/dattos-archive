@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="vi-vn">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="map[name:Kiyoshi Datto]">
+<meta name="description" content=" Nguồn: Facebook
+Đây là bài viết phân tích hệ thống thi cuối kỳ bằng USB của một trường đại học F (giấu tên). Đây là hệ thống Windows To Go - một HĐH Windows hoàn chỉnh chứa trên USB 64GB, được mã hóa Bitlocker.
+Xem đầy đủ bài phân tích: tại đây.
+Tóm tắt nhanh: Cách hoạt động Sinh viên cắm USB vào laptop cá nhân và boot từ USB thay vì dùng HĐH có sẵn.
+" />
+<meta name="keywords" content=", phần mềm" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://dattos-archive.click/vi/blog/2026/04/phan-tich-he-thong-thi-bang-usb-cua-truong-dai-hoc-f/" />
+
+
+    <title>
+        
+            Phân tích hệ thống thi bằng USB của Trường Đại Học F** :: Datto&#39;s Archive  - Tiếng Việt
+        
+    </title>
+
+
+
+
+
+  <link rel="stylesheet" href="https://dattos-archive.click/main.min.07ea7ac7da67e2e153a7dfa2457bc6a19cca824288d175e223fadc579041bc51.css" integrity="sha256-B&#43;p6x9pn4uFTp9&#43;iRXvGoZzKgkKI0XXiI/rcV5BBvFE=" crossorigin="anonymous">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="https://dattos-archive.click/css/custom.css">
+    
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://dattos-archive.click/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://dattos-archive.click/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://dattos-archive.click/favicon-16x16.png">
+    <link rel="manifest" href="https://dattos-archive.click/site.webmanifest">
+    <link rel="mask-icon" href="https://dattos-archive.click/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="https://dattos-archive.click/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+
+  <meta itemprop="name" content="Phân tích hệ thống thi bằng USB của Trường Đại Học F**">
+  <meta itemprop="description" content="Nguồn: Facebook
+Đây là bài viết phân tích hệ thống thi cuối kỳ bằng USB của một trường đại học F (giấu tên). Đây là hệ thống Windows To Go - một HĐH Windows hoàn chỉnh chứa trên USB 64GB, được mã hóa Bitlocker.
+Xem đầy đủ bài phân tích: tại đây.
+Tóm tắt nhanh: Cách hoạt động Sinh viên cắm USB vào laptop cá nhân và boot từ USB thay vì dùng HĐH có sẵn.">
+  <meta itemprop="datePublished" content="2026-04-15T13:00:00+07:00">
+  <meta itemprop="dateModified" content="2026-04-15T13:00:00+07:00">
+  <meta itemprop="wordCount" content="318">
+  <meta itemprop="image" content="https://dattos-archive.click/">
+  <meta itemprop="keywords" content="Phần Mềm">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://dattos-archive.click/">
+  <meta name="twitter:title" content="Phân tích hệ thống thi bằng USB của Trường Đại Học F**">
+  <meta name="twitter:description" content="Nguồn: Facebook
+Đây là bài viết phân tích hệ thống thi cuối kỳ bằng USB của một trường đại học F (giấu tên). Đây là hệ thống Windows To Go - một HĐH Windows hoàn chỉnh chứa trên USB 64GB, được mã hóa Bitlocker.
+Xem đầy đủ bài phân tích: tại đây.
+Tóm tắt nhanh: Cách hoạt động Sinh viên cắm USB vào laptop cá nhân và boot từ USB thay vì dùng HĐH có sẵn.">
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2026-04-15 13:00:00 &#43;0700 &#43;07" />
+
+
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="https://dattos-archive.click/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">$</span>
+            <span class="logo__text ">
+                cd /main/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   animation-duration:1s;">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://dattos-archive.click/vi/ve/">Về</a></li><li><a href="https://dattos-archive.click/vi/archivers/">Lưu trữ</a></li><li><a href="https://dattos-archive.click/vi/blog/">Blog</a></li><li><a href="https://dattos-archive.click/vi/chinh-sach-ve-quyen-rieng-tu-va-bao-mat-du-lieu-ca-nhan/">Chính sách</a></li><li><a href="https://dattos-archive.click/vi/dau-an-cu/">Trang cũ</a></li>
+
+        
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+
+            <span class="menu-divider">|</span>
+            <span class="language-selector">
+                <ul class="submenu">
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">VN</a>
+                        <div class="dropdown-content">
+                                
+                                    <a title="EN" href="https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/">EN</a>
+                                
+                        </div>
+                    </li>
+                </ul>
+            </span>
+                <span class="theme-toggle not-selectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+ </svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        2 phút đọc
+
+         | Bài viết có sẵn bằng
+          
+              <a href="https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/"><span class="flag fi fi-us"></span></a>
+          
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://dattos-archive.click/vi/blog/2026/04/phan-tich-he-thong-thi-bang-usb-cua-truong-dai-hoc-f/">Phân tích hệ thống thi bằng USB của Trường Đại Học F**</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <blockquote>
+<p><strong>Nguồn</strong>: <a href="https://www.facebook.com/photo/?fbid=1323516489706345">Facebook</a></p></blockquote>
+<hr>
+<p>Đây là bài viết phân tích <strong>hệ thống thi cuối kỳ bằng USB</strong> của một trường đại học F (giấu tên). Đây là hệ thống <strong>Windows To Go</strong> - một HĐH Windows hoàn chỉnh chứa trên USB 64GB, được mã hóa <strong>Bitlocker</strong>.</p>
+<p>Xem đầy đủ bài phân tích: <a href="https://th1nhhdk.github.io/blog/post/2026/03/31/phan-tich-he-thong-thi-bang-usb-cua-truong-dh-f/">tại đây</a>.</p>
+<img src="analysis-of-the-exam-system-at-university-f_image_1.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<h2 id="tóm-tắt-nhanh">Tóm tắt nhanh:</h2>
+<h4 id="cách-hoạt-động">Cách hoạt động</h4>
+<ul>
+<li>
+<p>Sinh viên cắm USB vào laptop cá nhân và boot từ USB thay vì dùng HĐH có sẵn.</p>
+</li>
+<li>
+<p>USB chứa <strong>Windows 10 IoT Enterprise LTSC</strong> chạy ở chế độ <strong>Kiosk</strong> - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.</p>
+</li>
+</ul>
+<h4 id="quá-trình-phân-tích">Quá trình phân tích</h4>
+<ol>
+<li>
+<p><strong>Nhân bản USB</strong>: Tác giả clone toàn bộ 64GB về dạng <code>.img</code> bằng <code>dd</code>.</p>
+</li>
+<li>
+<p><strong>Giải mã Bitlocker</strong>: Phân vùng HĐH bị mã hóa, nhưng key giải mã (file <code>.BEK</code>) nằm ngay trên phân vùng EFI - không cần mật khẩu.</p>
+</li>
+</ol>
+<h4 id="phân-tích-nội-dung">Phân tích nội dung:</h4>
+<ul>
+<li>
+<p>HĐH được cấu hình: tự reboot khi crash, tweak hiệu năng, tắt file indexing.</p>
+</li>
+<li>
+<p>Có <strong>Snappy Driver Installer</strong> + <strong>Driver Installer</strong> để cài driver tương thích đa phần cứng.</p>
+</li>
+<li>
+<p>Log cho thấy USB được tạo/test trong <strong>VirtualBox</strong>.</p>
+</li>
+</ul>
+<h4 id="phần-mềm-thi-eclientexe">Phần mềm thi (E**Client.exe):</h4>
+<ul>
+<li>
+<p>Chạy fullscreen, chặn <strong>Alt+Tab</strong>.</p>
+</li>
+<li>
+<p>Chụp ảnh thí sinh qua webcam khi bắt đầu thi.</p>
+</li>
+<li>
+<p>Nộp bài qua máy chủ nội bộ trong trường.</p>
+</li>
+</ul>
+<h4 id="boot-trong-vm">Boot trong VM:</h4>
+<ul>
+<li>Tác giả convert <code>.img</code> -&gt; <code>.vmdk</code> rồi boot trong <strong>VMWare</strong> để kiểm chứng - xác nhận môi trường <strong>Kiosk</strong> hoạt động đúng như mô tả.</li>
+</ul>
+<h4 id="kết-luận-của-tác-giả">Kết luận của tác giả</h4>
+<ul>
+<li>
+<p>Hệ thống <strong>khá bảo mật</strong> - gian lận rất khó hoặc không thực tế.</p>
+</li>
+<li>
+<p>Ngay cả nếu bypass được các hạn chế trên USB, việc lén mở thêm phần mềm trong <strong>Kiosk mode</strong> mà không bị giám thị phát hiện là gần như bất khả thi.</p>
+</li>
+<li>
+<p><em>Nhược điểm</em>: chi phí mua ~300 USB 64GB khá tốn kém, và tính ổn định phụ thuộc vào driver/phần cứng đa dạng của laptop sinh viên.</p>
+</li>
+</ul>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://dattos-archive.click/vi/tags/phan-mem/">phần mềm</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        318 từ
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          15-04-2026 13:00
+        
+
+         
+          
+        
+      </p>
+    </div>
+
+    
+    <div class="pagination">
+        
+
+        <div class="pagination__buttons">
+            
+
+            
+            <span class="button next">
+                <a href="https://dattos-archive.click/vi/blog/2025/07/bat-dau-voi-linux/">
+                    <span class="button__text">Bắt đầu với Linux</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2026</span>
+            
+            <span><a href="https://dattos-archive.click/">FireHelper</a></span>
+            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span><a href="https://dattos-archive.click/vi/blog/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+            
+            
+        </div>
+    </div>
+    
+    
+</footer>
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="https://dattos-archive.click/bundle.min.ad54ad97364f77ede35def9096b162bb1f0b3973aa50b080f5e82fa147f6882e2a7200d7535adbf9b51bebf939f1c1ca9bbe6be87530092aca720eac4a226fda.js" integrity="sha512-rVStlzZPd&#43;3jXe&#43;QlrFiux8LOXOqULCA9egvoUf2iC4qcgDXU1rb&#43;bUb6/k58cHKm75r6HUwCSrKcg6sSiJv2g=="></script>
+
+
+    
+        <script src="https://dattos-archive.click/js/theme-toggle.js"></script>
+    
+
+
+
+    </body>
+</html>

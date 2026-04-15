@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Datto&#39;s Archive</title>
+    <link>https://dattos-archive.click/tags/software/</link>
+    <description>Recent content in Software on Datto&#39;s Archive</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 15 Apr 2026 13:00:00 +0700</lastBuildDate>
+    <atom:link href="https://dattos-archive.click/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of the exam system at University F**</title>
+      <link>https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/</link>
+      <pubDate>Wed, 15 Apr 2026 13:00:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/blog/2026/04/analysis-of-the-exam-system-at-university-f/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Source&lt;/strong&gt;: &lt;a href=&#34;https://www.facebook.com/photo/?fbid=1323516489706345&#34;&gt;Facebook&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;This is an analytical post regarding the &lt;strong&gt;USB-based final exam system&lt;/strong&gt; used by University F**. This is &lt;strong&gt;Windows To Go&lt;/strong&gt; - a complete Windows OS contained within a 64GB USB drive, encrypted with &lt;strong&gt;Bitlocker&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Read full: &lt;a href=&#34;https://th1nhhdk.github.io/blog/post/2026/03/31/phan-tich-he-thong-thi-bang-usb-cua-truong-dh-f/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;img src=&#34;analysis-of-the-exam-system-at-university-f_image_1.webp&#34; style=&#34;display: block; margin: 0 auto; width: 100%; border-radius: 8px&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;quick-summary&#34;&gt;Quick Summary:&lt;/h2&gt;&#xA;&lt;h4 id=&#34;how-it-works&#34;&gt;How it works&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;USB chứa &lt;strong&gt;Windows 10 IoT Enterprise LTSC&lt;/strong&gt; chạy ở &lt;strong&gt;chế độ Kiosk&lt;/strong&gt; - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Lua is good for beginners?</title>
+      <link>https://dattos-archive.click/blog/2025/03/why-lua-is-good-for-beginners/</link>
+      <pubDate>Tue, 18 Mar 2025 22:47:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/blog/2025/03/why-lua-is-good-for-beginners/</guid>
+      <description>&lt;p&gt;Hello there! This is my first blog post about programming languages. Today’s topic is why you should learn Lua in this year and why it’s an excellent choice for beginners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t heard of Lua, it&amp;rsquo;s a really small programming language. Maybe you have heard of it, but never had a reason to learn it because your preferred programming language already meets all your needs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Lua_%28programming_language%29&#34;&gt;Lua&lt;/a&gt; is an open source language built on top of the &lt;a href=&#34;https://en.wikipedia.org/wiki/C_%28programming_language%29&#34;&gt;C programming language&lt;/a&gt;. It is exclusively designed for embedded systems. It features dynamic typing, simple syntax and efficient memory management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Talking About MacBook and MacOS: Why I Hate It</title>
+      <link>https://dattos-archive.click/blog/2024/11/talking-about-macbook-and-macos-why-i-hate-it/</link>
+      <pubDate>Wed, 27 Nov 2024 18:59:00 +0700</pubDate>
+      <guid>https://dattos-archive.click/blog/2024/11/talking-about-macbook-and-macos-why-i-hate-it/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;This page was automatically recreated by AI from an article on the old website.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Rewinding to 2001, Apple introduced MacOS with a promise of a gorgeous, &amp;ldquo;anyone can use it&amp;rdquo; interface. Fast forward to 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But life isn&amp;rsquo;t always a dream; after some time, I had to say my goodbyes for some rather &amp;ldquo;unbelievable&amp;rdquo; reasons. Let’s break down why! 👇&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
