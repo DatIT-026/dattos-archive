@@ -25,7 +25,7 @@
 &lt;h4 id=&#34;how-it-works&#34;&gt;How it works&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;USB chứa &lt;strong&gt;Windows 10 IoT Enterprise LTSC&lt;/strong&gt; chạy ở &lt;strong&gt;chế độ Kiosk&lt;/strong&gt; - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.&lt;/p&gt;</description>
+&lt;p&gt;Students plug the USB into their personal laptops and boot from the USB instead of using the pre-installed operating system.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<blockquote>
 <p><strong>Source</strong>: <a href="https://www.facebook.com/photo/?fbid=1323516489706345">Facebook</a></p></blockquote>
 <hr>
@@ -35,9 +35,6 @@
 <h2 id="quick-summary">Quick Summary:</h2>
 <h4 id="how-it-works">How it works</h4>
 <ul>
-<li>
-<p>USB chứa <strong>Windows 10 IoT Enterprise LTSC</strong> chạy ở <strong>chế độ Kiosk</strong> - chỉ cho phép mở phần mềm thi, chặn mọi thao tác khác.</p>
-</li>
 <li>
 <p>Students plug the USB into their personal laptops and boot from the USB instead of using the pre-installed operating system.</p>
 </li>
@@ -154,7 +151,7 @@
 
 <p>Now you have the <code>.iso</code> file. Find a video on Youtube that will help you to install Linux. If you love reading, try to learn <a href="https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html">this article</a>.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Now, you know what Linux is and how to install it. This is the end of Part 1 in the series <a href="/tags/linux-for-beginner/">Linux for Beginner</a>. In <a href="/blog/2025/07/getting-started-with-linux/">Part 2</a>, We will start exploring Linux Mint.</p>
+<p>Now, you know what Linux is and how to install it. This is the end of Part 1 in the series <a href="/tags/linux/">Linux for Beginner</a>. In <a href="/blog/2025/07/getting-started-with-linux/">Part 2</a>, We will start exploring Linux Mint.</p>
 ]]></content>
         </item>
         
@@ -218,23 +215,16 @@
             <pubDate>Fri, 29 Nov 2024 23:35:00 +0700</pubDate>
             
             <guid>https://dattos-archive.click/blog/2024/11/lumia-520-my-first-smartphone/</guid>
-            <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;This page was automatically recreated by AI from an article on the old website.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Microsoft’s Windows Phone operating system officially &amp;ldquo;retired&amp;rdquo; on January 14, 2020. This was also when the legendary Windows 7 faded into the past to make way for newer names. The Lumia lineup, crafted by Nokia and later Microsoft Mobile, was born specifically to run this platform. Among them, the Lumia 520 was not only the most popular model but also the first smartphone that opened up a fascinating digital world for me. After 10 years, since my old 520 is broken, I decided to find that old feeling again with the Lumia 640 XL to see what this &amp;ldquo;old-timer&amp;rdquo; can still do in 2026, an era flooded with AI.&lt;/p&gt;</description>
-            <content type="html"><![CDATA[<blockquote>
-<p><em>This page was automatically recreated by AI from an article on the old website.</em></p></blockquote>
-<p>Microsoft’s Windows Phone operating system officially &ldquo;retired&rdquo; on January 14, 2020. This was also when the legendary Windows 7 faded into the past to make way for newer names. The Lumia lineup, crafted by Nokia and later Microsoft Mobile, was born specifically to run this platform. Among them, the Lumia 520 was not only the most popular model but also the first smartphone that opened up a fascinating digital world for me. After 10 years, since my old 520 is broken, I decided to find that old feeling again with the Lumia 640 XL to see what this &ldquo;old-timer&rdquo; can still do in 2026, an era flooded with AI.</p>
+            <description>&lt;p&gt;Microsoft officially pulled the plug on Windows Phone on January 14, 2020, right as the legendary Windows 7 was being phased out to make way for a new generation. Back then, Lumia devices were custom-built by Nokia and Microsoft specifically to run on this platform. For me, the Lumia 520 wasn&amp;rsquo;t just a popular budget phone, it was my very first smartphone, the one that introduced me to a whole new world of technology. Fast forward to 2024, with AI dominating every conversation, I suddenly felt a wave of nostalgia. Since my old 520 had long since given up the ghost, I decided to pick up a Lumia 640 XL to see how this &amp;ldquo;relic&amp;rdquo; holds up in today&amp;rsquo;s digital world.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Microsoft officially pulled the plug on Windows Phone on January 14, 2020, right as the legendary Windows 7 was being phased out to make way for a new generation. Back then, Lumia devices were custom-built by Nokia and Microsoft specifically to run on this platform. For me, the Lumia 520 wasn&rsquo;t just a popular budget phone, it was my very first smartphone, the one that introduced me to a whole new world of technology. Fast forward to 2024, with AI dominating every conversation, I suddenly felt a wave of nostalgia. Since my old 520 had long since given up the ghost, I decided to pick up a Lumia 640 XL to see how this &ldquo;relic&rdquo; holds up in today&rsquo;s digital world.</p>
 <img src="Nokia-Lumia-520.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
 <p align="center"><i>The legendary Lumia 520, the gateway that led me into the world of technology</i></p>
-<h2 id="1-overview">1. Overview</h2>
-<p>My first smartphone, the Nokia Lumia 520, always holds a critical place in my tech-tinkering journey. I still clearly remember the excitement of unboxing it under the afternoon sun, admiring the vibrant replaceable plastic back cover. Despite being a budget device, it felt very solid, compact, and extremely refined.</p>
-<p>What impressed me the most was its pure simplicity. The Live Tiles interface on Windows Phone 8.1 looked very modern and intuitive at the time, not at all messy like the menus of the physical keypad phones I used before. Its performance back then was incredibly smooth, enough to meet all the exploration needs of a &ldquo;newbie&rdquo;.</p>
-<p>Even though the camera was only 5 MP and looks quite &ldquo;prehistoric&rdquo; by today&rsquo;s standards, it was a whole sky of technology back then. It helped me capture everyday moments in the easiest way possible.</p>
-<img src="image_2.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
-<p align="center"><i>Source: Internet</i></p>
-<h2 id="2-specifications">2. Specifications</h2>
+<h2 id="overview">Overview</h2>
+<p>My first smartphone, the Nokia Lumia 520, always holds a very special place in my tech journey. I still clearly remember how excited I was when unboxing it in the afternoon sun, looking at its bright plastic cover that could be easily removed and swapped. Even though it was a budget phone, it felt solid in my hand, compact, and very well-made.</p>
+<p>What impressed me the most was its pure simplicity. The Live Tiles interface on Windows Phone 8.1 looked modern and easy to use. It was a unique style that only the Lumia line had. The phone&rsquo;s performance was very smooth, which was more than enough for all my basic needs at that time.</p>
+<p>Even though the 5 MP camera looks &ldquo;old&rdquo; compared to today&rsquo;s standards, back then it felt like high-tech. It was the tool that helped me capture everyday moments in the easiest way possible.</p>
+<h4 id="specifications">Specifications</h4>
 <p>A decade later, my memory as a Software Engineer has its limits, so I had to ask &ldquo;friend&rdquo; Google for a hint to compile this spec table for your reference.</p>
-<h3 id="lumia-520-configuration-details">Lumia 520 Configuration Details</h3>
 <div style="overflow-x: auto;">
     <table>
         <thead>
@@ -246,27 +236,28 @@
         <tbody>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
                 <td style="white-space: nowrap; font-weight: bold;">Processor</td>
-                <td>Qualcomm Snapdragon S4 Plus MSM8227 (2 x 1 GHz)</td>
+                <td style="white-space: nowrap;">Qualcomm Snapdragon S4 Plus MSM8227 (2x1 GHz)</td>
             </tr>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
-                <td style="white-space: nowrap; font-weight: bold;">Memory (RAM)</td>
-                <td>1 GB</td>
+                <td style="white-space: nowrap; font-weight: bold;">RAM</td>
+                <td style="white-space: nowrap;">1 GB</td>
             </tr>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
                 <td style="white-space: nowrap; font-weight: bold;">Storage</td>
-                <td>8 GB SSD</td>
+                <td style="white-space: nowrap;">8 GB SSD</td>
             </tr>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
                 <td style="white-space: nowrap; font-weight: bold;">Battery</td>
-                <td>1430 mAh</td>
+                <td style="white-space: nowrap;">1430 mAh</td>
             </tr>
         </tbody>
     </table>
 </div>
-<h2 id="3-lumia-640-xl-a-successor-from-the-past">3. Lumia 640 XL: A Successor from the Past</h2>
-<p>When Windows Phone faded into history, I happened to read about the Windows 11 ARM project running on old devices, which immediately reminded me of the Lumias. Curious about the fate of a once-failed but potential-filled platform, I bought a Lumia 640 XL to test its survival capabilities.</p>
-<p>Comparing the Lumia 640 XL to today&rsquo;s borderless smartphones, the first feeling is an unusual sturdiness. The 5.7 inch screen, while not having a very high resolution, benefits from the IPS panel and ClearBlack technology, making colors very distinct, especially the deep blacks that make the Live Tiles pop.</p>
-<h3 id="lumia-640-xl-configuration-details">Lumia 640 XL Configuration Details</h3>
+<h2 id="lumia-640-xl-a-successor-from-the-past">Lumia 640 XL: A Successor from the Past</h2>
+<p>As Windows Phone faded into the past, I happened to read about the Windows 11 ARM project for old devices, which immediately made me think of the Lumia series. Curious about the fate of a platform that failed despite its potential, I bought a Lumia 640 XL to see how it survives today.</p>
+<img src="image_2.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
+<p align="center"><i>In 2010, Microsoft employees held a funeral for the iPhone and BlackBerry after launching Windows Phone 7.</i></p>
+<p>Holding the Lumia 640 XL next to today&rsquo;s bezel-less smartphones, the first thing I noticed was how surprisingly solid it feels. Although the 5.7-inch screen resolution isn&rsquo;t very high, the IPS panel and ClearBlack technology keep the colors sharp. The deep blacks, in particular, make the Live Tiles really stand out.</p>
 <div style="overflow-x: auto; margin-top: 15px;">
     <table>
         <thead>
@@ -278,33 +269,33 @@
         <tbody>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
                 <td style="white-space: nowrap; font-weight: bold;">Processor</td>
-                <td>Qualcomm Snapdragon 400 MSM8226/MSM8926</td>
+                <td style="white-space: nowrap;">Qualcomm Snapdragon 400 MSM8226/MSM8926</td>
             </tr>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
-                <td style="white-space: nowrap; font-weight: bold;">Memory (RAM)</td>
-                <td>1 GB</td>
+                <td style="white-space: nowrap; font-weight: bold;">RAM</td>
+                <td style="white-space: nowrap;">1 GB</td>
             </tr>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
                 <td style="white-space: nowrap; font-weight: bold;">Storage</td>
-                <td>8 GB SSD</td>
+                <td style="white-space: nowrap;">8 GB SSD</td>
             </tr>
             <tr style="border-bottom: 1px solid rgba(128, 128, 128, 0.2);">
                 <td style="white-space: nowrap; font-weight: bold;">Battery</td>
-                <td>3000 mAh</td>
+                <td style="white-space: nowrap;">3000 mAh</td>
             </tr>
         </tbody>
     </table>
 </div>
-<h3 id="photography-with-zeiss-lens">Photography with ZEISS Lens</h3>
+<h4 id="photography-with-zeiss-lens">Photography with ZEISS Lens</h4>
 <p>What I expected most was the 13 MP camera with a ZEISS lens. In good lighting, the photos have a level of detail and dynamic range (DR) that quite surprised me. It carries a very distinct color signature, not overly processed by AI like today&rsquo;s phone models.</p>
 <h2 id="4-surviving-with-a-dead-operating-system">4. &ldquo;Surviving&rdquo; with a Dead Operating System</h2>
-<p>The question is: What can a machine running Windows 10 Mobile do in 2026?</p>
+<p>The question is: What can a machine running Windows 10 Mobile do in 2024?</p>
 <div style="overflow-x: auto;">
     <table>
         <thead>
             <tr style="background-color: rgba(128, 128, 128, 0.1); border-bottom: 24x solid #444;">
                 <th style="white-space: nowrap;">App</th>
-                <th style="text-align: left; white-space: nowrap;">Status in 2026</th>
+                <th style="text-align: left; white-space: nowrap;">Status in 2024</th>
             </tr>
         </thead>
         <tbody>
@@ -326,6 +317,8 @@
 <p>The reality is that most popular apps like Facebook or YouTube have stopped working. However, thanks to the community of developers who are still passionate, we can use web wrappers or third-party apps to maintain the most basic features.</p>
 <h2 id="5-crazy-project-windows-11-arm-on-lumia">5. Crazy Project: Windows 11 ARM on Lumia</h2>
 <p>This is the most dramatic part. I couldn&rsquo;t just let this machine sit quietly with its ancient OS. I experimented with installing the <strong>WOA (Windows on ARM)</strong> project on this 640 XL.</p>
+<img src="image_3.webp" style="display: block; margin: 0 auto; width: 70%; border-radius: 8px">
+<p align="center"><i>Source: Internet</i></p>
 <p>The feeling of seeing the Windows 11 Start button appear on a phone from 2015 is truly hard to describe. Although the machine runs extremely hot and lags due to hardware limits, it proves one thing: The limit of technology only lies in our imagination.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>The journey from Lumia 520 to 640 XL isn&rsquo;t just about swapping for a better phone, but it is how I keep a connection to memories from when I was just starting out in the Software Engineering industry.</p>
@@ -340,26 +333,25 @@
             
             <guid>https://dattos-archive.click/blog/2024/11/talking-about-macbook-and-macos-why-i-hate-it/</guid>
             <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;This page was automatically recreated by AI from an article on the old website.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Rewinding to 2001, Apple introduced MacOS with a promise of a gorgeous, &amp;ldquo;anyone can use it&amp;rdquo; interface. Fast forward to 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But life isn&amp;rsquo;t always a dream; after some time, I had to say my goodbyes for some rather &amp;ldquo;unbelievable&amp;rdquo; reasons. Let’s break down why! 👇&lt;/p&gt;</description>
+&lt;p&gt;Let&amp;rsquo;s go back to 2001, when Apple introduced MacOS with big promises of a shiny interface that was &amp;ldquo;so easy that anyone could use it.&amp;rdquo; Then in 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But reality hit differently. After spending some time with it, I eventually had to say goodbye for a few reasons: 👇&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I have to admit, MacOS on a MacBook is undeniably smooth and well-optimized. However, there are certain things that make the experience quite&amp;hellip; frustrating. This post is just my personal take on why this duo failed to meet my expectations, and why you shouldn&amp;rsquo;t treat them like some kind of &amp;ldquo;holy grail&amp;rdquo; of technology.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<blockquote>
-<p><em>This page was automatically recreated by AI from an article on the old website.</em></p></blockquote>
-<p>Rewinding to 2001, Apple introduced MacOS with a promise of a gorgeous, &ldquo;anyone can use it&rdquo; interface. Fast forward to 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But life isn&rsquo;t always a dream; after some time, I had to say my goodbyes for some rather &ldquo;unbelievable&rdquo; reasons. Let’s break down why! 👇</p>
-<p>I have to admit, MacOS on a MacBook is undeniably stable and optimized. However, there are &ldquo;black holes&rdquo; that make my experience quite&hellip; frustrating. This article reflects my personal views on why this duo failed to meet my expectations and why you shouldn&rsquo;t over-idealize its value.</p>
+<p>Let&rsquo;s go back to 2001, when Apple introduced MacOS with big promises of a shiny interface that was &ldquo;so easy that anyone could use it.&rdquo; Then in 2006, the MacBook arrived, and everyone thought it would rule the laptop world. But reality hit differently. After spending some time with it, I eventually had to say goodbye for a few reasons: 👇</p></blockquote>
+<p>I have to admit, MacOS on a MacBook is undeniably smooth and well-optimized. However, there are certain things that make the experience quite&hellip; frustrating. This post is just my personal take on why this duo failed to meet my expectations, and why you shouldn&rsquo;t treat them like some kind of &ldquo;holy grail&rdquo; of technology.</p>
 <img src="MacOS-cons.webp" style="display: block; margin: 0 auto; width: 100%; border-radius: 8px">
-<h2 id="1-lack-of-customization">1. Lack of Customization</h2>
-<p>MacOS follows a &ldquo;take-it-or-leave-it&rdquo; design philosophy - super consistent, but it suffocates personal creativity. If you&rsquo;ve used Windows or are a Linux enthusiast (like me, currently on <a href="https://fedoraproject.org/">Fedora</a> and previously on <a href="https://nixos.org/">NixOS</a>) who loves tweaking everything, MacOS will be a total shock. It only lets you adjust a few basic things for fun. Want to change folder colors or mess with system icons? It&rsquo;s nearly impossible - a true pain for &ldquo;power users&rdquo;!</p>
-<h2 id="2-limited-compatibility-with-third-party-software">2. Limited Compatibility with Third-Party Software</h2>
+<h2 id="lack-of-customization">Lack of Customization</h2>
+<p>MacOS follows a &ldquo;take-it-or-leave-it&rdquo; design philosophy, super consistent, but it suffocates personal creativity. If you&rsquo;ve used Windows or are a Linux enthusiast (like me, currently on <a href="https://fedoraproject.org/">Fedora</a> and previously on <a href="https://nixos.org/">NixOS</a>) who loves tweaking everything, MacOS will be a total shock. It only lets you adjust a few basic things for fun. Want to change folder colors or mess with system icons? It&rsquo;s nearly impossible, a true pain for &ldquo;power users&rdquo;!</p>
+<h2 id="limited-compatibility-with-third-party-software">Limited Compatibility with Third-Party Software</h2>
 <p>MacOS often lacks compatibility with non-Apple applications. If you need specialized software, you might find it&rsquo;s unavailable on MacOS, as developers typically prioritize Windows due to its larger market share. Virtualization exists as an option, but it serves more as a workaround than a true solution. This is one factor contributing to the lack of customization I mentioned earlier.</p>
-<h2 id="3-gaming-experience">3. Gaming Experience</h2>
-<p>Are you a gamer or looking to dive into some Triple-A titles to de-stress? My condolences, because the MacBook isn&rsquo;t exactly in your league. Apple doesn&rsquo;t seem to care much about the gaming sector, resulting in a pitifully small game library. The lack of DirectX support - the &ldquo;soul&rdquo; of Windows gaming - means even ported games often run like they&rsquo;re &ldquo;gasping for air&rdquo;. And the Mac App Store? Nothing much to discuss there except its dullness.</p>
-<p>So, if you aren&rsquo;t the &ldquo;all work and no play&rdquo; type, take a look at the Acer, Asus, or Lenovo families. They perform well, play hard, and won&rsquo;t leave your wallet &ldquo;in pain&rdquo; like a MacBook would.</p>
-<h2 id="4-proprietary-hardware-and-overpriced">4. Proprietary Hardware and Overpriced</h2>
-<p>Indeed! I&rsquo;d have to say that MacBook is delusional with pricing. From my perspective, brands like Dell, Acer, and Surface are not only the alternative options to save money if you&rsquo;re on a budget but also can still handle all your office tasks effectively.</p>
+<h2 id="gaming-experience">Gaming Experience</h2>
+<p>Are you a gamer or do you want to play some AAA games to de-stress? Sorry to say, but MacBook is definitely not on your side. Apple doesn&rsquo;t seem to care about gaming at all, which results in a very poor game library. The lack of DirectX support, the &ldquo;soul&rdquo; of Windows games, makes even the ported games struggle to run. As for the Mac App Store, there is nothing much to say except that it&rsquo;s boring.</p>
+<p>So, if you are not the &ldquo;all work and no play&rdquo; type, take a look at brands like Acer, Asus, or Lenovo. You get good specs and great gaming without hurting your wallet as much as buying a MacBook.</p>
+<h2 id="proprietary-hardware-and-overpriced">Proprietary Hardware and Overpriced</h2>
+<p>Indeed! I&rsquo;d have to say that MacBook is delusional with pricing. From my perspective, brands like Dell, Acer, and Lenovo are not only the alternative options to save money if you&rsquo;re on a budget but also can still handle all your office tasks effectively.</p>
 <p>One major drawback of MacOS is its requirement for Apple hardware. Although MacBooks and iMacs are beautiful, they are expensive. Users must buy a Mac to access MacOS, with no option to build a more affordable custom system like with PCs.</p>
 <p>And who the heck said that 8GB of RAM on MacOS is the same as 16GB on a Laptop Windows?? Foolish!</p>
-<h2 id="5-incompatibility-with-industry-standards">5. Incompatibility with Industry Standards</h2>
-<p>If you work in an industry where Windows is &ldquo;king,&rdquo; using MacOS feels like being in a house where everyone speaks a different language. Microsoft Office on Mac is always missing this or that feature compared to the Windows version. This makes collaborating with Windows-based colleagues or clients quite cumbersome.</p>
+<h2 id="incompatibility-with-industry-standards">Incompatibility with Industry Standards</h2>
+<p>If you work in a field where Windows is a &ldquo;king&rdquo;, using MacOS is like trying to speak a different language in your own home. Microsoft Office on Mac always feels like a &ldquo;lite&rdquo; version, missing many features that are standard on Windows. This makes collaborating with colleagues or clients a total headache and very clunky.</p>
 <h2 id="6-hardware-upgrading-apple-says-no">6. Hardware Upgrading? Apple says no!</h2>
 <p>Apple&rsquo;s decision to use proprietary components limits user flexibility. Since RAM and storage are often soldered in, upgrading is either difficult or impossible, leaving you with a fixed configuration and few options for increased power later.</p>
 <p>After three years, let&rsquo;s see if the person who said that 8GB Mac RAM is the same as 16GB Windows RAM could say that again :))</p>
